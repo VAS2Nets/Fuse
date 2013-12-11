@@ -1,0 +1,76 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".Comment" >
+
+    
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#e5dddd" >
+         <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="21dp" >
+        
+             <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/compose_message"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_action_send_now"
+        android:onClick="sendTextComment" />
+             
+    </LinearLayout>
+    </RelativeLayout>
+
+    
+    <ImageView
+        android:id="@+id/profilepiximageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/footer"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_action_camera"
+        android:onClick="startCamera" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/footer"
+        android:layout_alignTop="@+id/footer"
+        android:layout_marginRight="14dp"
+        android:src="@drawable/ic_action_new_picture"
+        android:onClick="pickPicture" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView3"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="textMultiLine"
+        android:hint="What's on your mind?" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/displayimageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignRight="@+id/profilepiximageView"
+        android:layout_below="@+id/editText1"
+        android:layout_marginTop="20dp" />
+
+</RelativeLayout>

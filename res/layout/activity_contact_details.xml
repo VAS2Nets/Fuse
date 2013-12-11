@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ContactDetails" >
+
+    <ImageView
+        android:id="@+id/contactImageView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/noface" />
+
+    <Button
+        android:id="@+id/updatebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/contactImageView"
+        android:layout_centerVertical="true"
+        android:background="#33b5e5"
+        android:onClick="startFreeCall"
+        android:text="Free Call"
+        android:width="90dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/updatebutton"
+        android:layout_alignBottom="@+id/updatebutton"
+        android:layout_alignRight="@+id/contactImageView"
+        android:background="#33b5e5"
+        android:text="Chat"
+        android:width="90dp"
+        android:onClick="startChat" />
+
+    <TextView
+        android:id="@+id/d_contactname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/updatebutton"
+        android:layout_alignRight="@+id/button2"
+        android:layout_below="@+id/updatebutton"
+        android:layout_marginTop="28dp"
+        android:text="TextView"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/d_contactnumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/d_contactname"
+        android:layout_alignRight="@+id/d_contactname"
+        android:layout_below="@+id/d_contactname"
+        android:layout_marginTop="21dp"
+        android:clickable="true"
+        android:text="TextView"
+        android:textSize="17sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/d_contactname"
+        android:layout_centerHorizontal="true"
+        android:background="#33b5e5"
+        android:text="Free SMS"
+        android:width="90dp" />
+
+    <TextView
+        android:id="@+id/d_contactemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/d_contactnumber"
+        android:layout_alignRight="@+id/d_contactnumber"
+        android:layout_below="@+id/d_contactnumber"
+        android:layout_marginTop="22dp"
+        android:text="TextView"
+        android:textSize="17sp" />
+
+    <ImageView
+        android:id="@+id/profilepiximageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/d_contactemail"
+        android:layout_below="@+id/d_contactemail"
+        android:onClick="startCall"
+        android:src="@drawable/ic_action_call" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/profilepiximageView"
+        android:layout_marginLeft="24dp"
+        android:layout_toRightOf="@+id/profilepiximageView"
+        android:onClick="startSMS"
+        android:src="@drawable/ic_action_email" />
+
+</RelativeLayout>
