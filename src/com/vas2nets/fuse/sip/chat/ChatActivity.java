@@ -82,8 +82,8 @@ import com.vas2nets.fuse.contact.SelectContactsActivity;
 import com.vas2nets.fuse.db.DBHelper;
 import com.vas2nets.fuse.json.JSONParser;
 import com.vas2nets.fuse.location.LocationAnotherActivity;
-import come.vas2nets.fuse.test.MyFuseService;
-import come.vas2nets.fuse.test.MyFuseService.MyBinder;
+//import come.vas2nets.fuse.test.MyFuseService;
+//import come.vas2nets.fuse.test.MyFuseService.MyBinder;
 
 public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cursor> {
 	
@@ -133,7 +133,7 @@ public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cu
 	JSONObject json1;
 	
 	
-	private MyFuseService fs;
+	//private MyFuseService fs;
 	String test = "verify";
 	String nonSpacePhoneNumber;
 	
@@ -361,7 +361,7 @@ public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cu
 		  
 		 // bindService(new Intent(ChatActivity.this, ChatService.class), mConnection, Context.BIND_AUTO_CREATE);
 		  
-		  bindService(new Intent(ChatActivity.this, MyFuseService.class), conn, Context.BIND_AUTO_CREATE);
+		  //bindService(new Intent(ChatActivity.this, MyFuseService.class), conn, Context.BIND_AUTO_CREATE);
     	
 	}
 	
@@ -567,7 +567,7 @@ public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cu
 		@Override
 		public void onServiceConnected(ComponentName name, IBinder service) {
 			// TODO Auto-generated method stub
-			fs = ((MyFuseService.MyBinder) service).getService();
+			//fs = ((MyFuseService.MyBinder) service).getService();
 			Toast.makeText(ChatActivity.this, "Connectedxx", Toast.LENGTH_SHORT).show();
 			
 		}
@@ -575,7 +575,7 @@ public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cu
 		@Override
 		public void onServiceDisconnected(ComponentName name) {
 			// TODO Auto-generated method stub
-			fs = null;
+			//fs = null;
 		}
 		
 	};
