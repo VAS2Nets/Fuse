@@ -18,9 +18,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
 import com.vas2nets.fuse.db.DBHelper;
 import com.vas2nets.fuse.image.PhotoUtility;
 import com.vas2nets.fuse.user.UserContentProvider;

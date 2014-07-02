@@ -24,12 +24,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 import com.vas2nets.fuse.json.JSONParser;
 import com.vas2nets.fuse.profile.UpdateProfileActivity;
-import com.vas2nets.fuse.util.Constants;
 
 public class VerifyPinActivity extends Activity {
 	
@@ -42,7 +38,7 @@ public class VerifyPinActivity extends Activity {
 	private JSONParser jParser = new JSONParser();
 	private JSONObject json;
 	private JSONArray output;
-	//private static final String USER_MODEL = "http://83.138.190.170/fuse/user.php";
+	private static final String USER_MODEL = "http://83.138.190.170/fuse/user.php";
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -78,8 +74,8 @@ public class VerifyPinActivity extends Activity {
 			new SendPinForVerification().execute();
 			
 		}else{
-			// avoid hardoding string , user Constants class in package com.vas2nets.fuse.util
-			Toast.makeText(VerifyPinActivity.this, Constants.NO_INTERNET_ACTIVITY, Toast.LENGTH_LONG).show();	
+			
+			Toast.makeText(VerifyPinActivity.this, "No Internet Connectivity....try again!!!", Toast.LENGTH_LONG).show();	
 		
 		}
 		
@@ -96,7 +92,7 @@ public class VerifyPinActivity extends Activity {
 				params.add(new BasicNameValuePair("action", "verify"));
 				params.add(new BasicNameValuePair("phone", phoneNumber));
 				params.add(new BasicNameValuePair("pin", pin));
-				json = jParser.makeHttpRequest(Constants.USER_MODEL, "POST", params);
+				json = jParser.makeHttpRequest(USER_MODEL, "POST", params);
 				
 			}catch(Exception e){
 				
@@ -139,7 +135,7 @@ public class VerifyPinActivity extends Activity {
 					 startActivity(i);
 					
 				}else{
-					Toast.makeText(VerifyPinActivity.this, Constants.PIN_VERIFICATION_FAILED, Toast.LENGTH_LONG).show();	
+					Toast.makeText(VerifyPinActivity.this, "Pin Verification Failed....try again!!!", Toast.LENGTH_LONG).show();	
 				}
 				
 				

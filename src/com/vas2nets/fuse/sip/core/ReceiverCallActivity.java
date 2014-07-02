@@ -1,11 +1,10 @@
 package com.vas2nets.fuse.sip.core;
 
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 
 public class ReceiverCallActivity extends Activity {
 

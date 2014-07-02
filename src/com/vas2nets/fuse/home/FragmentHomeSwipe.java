@@ -15,9 +15,8 @@ import android.widget.TabHost.OnTabChangeListener;
 import android.widget.TabHost.TabContentFactory;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
 import com.vas2nets.fuse.contact.FragmentContacts;
+import com.vas2nets.fuse.sip.call.FragmentSipCallList;
 import com.vas2nets.fuse.sip.chat.FragmentSipChatList;
 
 /**
@@ -26,7 +25,7 @@ import com.vas2nets.fuse.sip.chat.FragmentSipChatList;
  */
 public class FragmentHomeSwipe extends Fragment {
 	
-	private static final int TWO_FRAGMENTS = 3;
+	private static final int TWO_FRAGMENTS = 4;
 	//private static final int TWO_FRAGMENTS = 2;
 	private ViewPager mViewPager;
 	private TabContentFactory mFactory = new TabContentFactory() {
@@ -57,9 +56,19 @@ public class FragmentHomeSwipe extends Fragment {
 		final TabHost tabHost = (TabHost) fragContent
 				.findViewById(android.R.id.tabhost);
 		tabHost.setup();
-		tabHost.addTab(tabHost.newTabSpec("Tab1").setIndicator("Home").setContent(mFactory));
-		tabHost.addTab(tabHost.newTabSpec("Tab2").setIndicator("Contact").setContent(mFactory));
-		tabHost.addTab(tabHost.newTabSpec("Tab3").setIndicator("Chat").setContent(mFactory));
+		
+		tabHost.addTab(tabHost.newTabSpec("Tab1").setIndicator("",
+                getResources().getDrawable(R.drawable.android_home)).setContent(mFactory));
+		
+		tabHost.addTab(tabHost.newTabSpec("Tab2").setIndicator("",
+                getResources().getDrawable(R.drawable.ic_action_person)).setContent(mFactory));
+		
+		tabHost.addTab(tabHost.newTabSpec("Tab3").setIndicator("",
+                getResources().getDrawable(R.drawable.ic_speechbubble)).setContent(mFactory));
+		
+		tabHost.addTab(tabHost.newTabSpec("Tab4").setIndicator("",
+                getResources().getDrawable(R.drawable.ic_action_call)).setContent(mFactory));
+		
 		mViewPager.setOnPageChangeListener(new OnPageChangeListener() {
 
 			@Override
@@ -89,6 +98,8 @@ public class FragmentHomeSwipe extends Fragment {
 					mViewPager.setCurrentItem(1);
 				} else if (tabId.equals("Tab3")){
 					mViewPager.setCurrentItem(2);
+				}else if (tabId.equals("Tab4")){
+					mViewPager.setCurrentItem(3);
 				}
 			}
 		});
@@ -109,6 +120,8 @@ public class FragmentHomeSwipe extends Fragment {
 				return new FragmentContacts();
 			} else if(position == 2){
 				return new FragmentSipChatList();
+			}else if(position == 3){
+				return new FragmentSipCallList();
 			}
 			return null;
 		}

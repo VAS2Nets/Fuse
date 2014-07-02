@@ -19,7 +19,6 @@ import android.util.Log;
 
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
 import com.vas2nets.fuse.sip.chat.ChatActivity;
 
 public class GcmFuseIntentService extends IntentService {

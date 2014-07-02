@@ -8,9 +8,9 @@ import java.util.TimerTask;
 import org.brickred.socialauth.Feed;
 import org.brickred.socialauth.android.DialogListener;
 import org.brickred.socialauth.android.SocialAuthAdapter;
+import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
 import org.brickred.socialauth.android.SocialAuthError;
 import org.brickred.socialauth.android.SocialAuthListener;
-import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
 
 import android.app.Service;
 import android.content.ContentValues;
@@ -21,8 +21,8 @@ import android.os.Binder;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
+
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
 import com.vas2nets.fuse.db.SocialDBHelper;
 
 public class MySocialService extends Service {

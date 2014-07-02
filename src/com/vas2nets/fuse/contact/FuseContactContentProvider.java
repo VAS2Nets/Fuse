@@ -2,7 +2,6 @@ package com.vas2nets.fuse.contact;
 
 import java.util.HashMap;
 
-
 import android.content.ContentProvider;
 import android.content.ContentUris;
 import android.content.ContentValues;

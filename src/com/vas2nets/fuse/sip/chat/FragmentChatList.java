@@ -28,9 +28,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
 import com.vas2nets.fuse.db.DBHelper;
 
 /**

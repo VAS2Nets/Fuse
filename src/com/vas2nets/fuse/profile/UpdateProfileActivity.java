@@ -44,10 +44,8 @@ import android.widget.Toast;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.vas2nets.fuse.MainActivity;
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 import com.vas2nets.fuse.contact.ContactDBHelper;
 import com.vas2nets.fuse.contact.FuseContactContentProvider;
 import com.vas2nets.fuse.db.DBHelper;
@@ -127,7 +125,7 @@ public class UpdateProfileActivity extends Activity {
     	sipId = pref3.getString("FuseSipID", null);
 		
     	
-    	if (checkPlayServices()) {
+    	/*if (checkPlayServices()) {
     		gcm = GoogleCloudMessaging.getInstance(this);
     		deviceId = getRegistrationId(getApplicationContext());
     		
@@ -139,12 +137,12 @@ public class UpdateProfileActivity extends Activity {
 			 Editor editor = pref2.edit();
 			 editor.putString("deviceid", deviceId);
 			 editor.commit(); // commit changes
-    	}
+    	}*/
     	
     	dbHelper = new ContactDBHelper(getApplicationContext());
     	getPhoneNumbers(); //get all contacts phone numbers
 		
-	}
+	} 
 	
 	
 	private boolean checkPlayServices() {
@@ -158,7 +156,7 @@ public class UpdateProfileActivity extends Activity {
 	            finish();
 	        }
 	        return false;
-	    }
+	    } 
 	    return true;
 	}
 	
@@ -315,7 +313,7 @@ public class UpdateProfileActivity extends Activity {
 	 class UpdateMyProfile extends AsyncTask<String, String, String> {
 		 
 		 @Override
-			protected void onPreExecute() {
+		protected void onPreExecute() {
 				super.onPreExecute();
 				try{
 					pDialog = new ProgressDialog(UpdateProfileActivity.this);
@@ -371,13 +369,18 @@ public class UpdateProfileActivity extends Activity {
 				storeNumbersInSqlite(allPhones); // stores all contacts phone numbers in sqlite for persistence
 				
 				if (status.equals("OK")){
+					//Toast.makeText(UpdateProfileActivity.this, "At the point of change!!!", Toast.LENGTH_LONG).show();	
 					Intent i = new Intent(UpdateProfileActivity.this, AddSocialNetworksActivity.class);
 					finish();
 					startActivity(i);					
 					SharedPreferences pref = getApplicationContext().getSharedPreferences("FusePreferences", 0); // 0 - for private mode
 					  Editor editor = pref.edit();
 					  editor.putString("Loggedin", "yes");
+<<<<<<< HEAD
 					  editor.commit(); // commit changes;;
+=======
+					  editor.commit(); // commit changes 
+>>>>>>> FETCH_HEAD
 					
 				}else{
 					Toast.makeText(UpdateProfileActivity.this, "Could not Register....try again!!!", Toast.LENGTH_LONG).show();	

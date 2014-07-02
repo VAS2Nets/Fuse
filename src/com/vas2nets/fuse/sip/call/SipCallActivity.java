@@ -7,19 +7,15 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.net.sip.SipException;
-import android.net.sip.SipProfile;
 import android.net.sip.SipRegistrationListener;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.view.Menu;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 import com.vas2nets.fuse.sip.core.SipIntentService;
-import com.vas2nets.fuse.sip.core.SipIntentService.MyBinder;
 
 public class SipCallActivity extends Activity {
 	

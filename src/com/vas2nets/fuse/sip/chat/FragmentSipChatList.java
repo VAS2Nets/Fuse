@@ -1,10 +1,5 @@
 package com.vas2nets.fuse.sip.chat;
 
-import com.csipsimple.api.SipMessage;
-import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-
 import android.annotation.SuppressLint;
 import android.content.ContentResolver;
 import android.content.Context;
@@ -27,7 +22,9 @@ import android.widget.AdapterView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
+
+import com.csipsimple.api.SipMessage;
+import com.vas2nets.fuse.R;
 
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.
@@ -101,6 +98,7 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 				
 				
 				
+				
 				Cursor cursor = (Cursor) arg0.getItemAtPosition(arg2);
 				from = cursor.getString(cursor.getColumnIndex(SipMessage.FIELD_FROM));
 				to = cursor.getString(cursor.getColumnIndex(SipMessage.FIELD_TO));
@@ -127,7 +125,8 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 					if (cur.moveToFirst()) {
 						// Get values from contacts database:
 					    contactId = cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup._ID));
-					    name =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME));  
+					    name =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME)); 
+					    
 					}
 				}else{
 					
@@ -147,8 +146,7 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 						if (cur.moveToFirst()) {
 							// Get values from contacts database:
 						    contactId = cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup._ID));
-						    name =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME));
-						    
+						    name =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME)); 
 						}
 						
 					}
@@ -213,6 +211,7 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 			
 			String phoneNumber = msg.getDisplayName();
 			String name = null;
+			String photoUrl = null;
 			
 			
 			boolean numberExist = contactExists(getActivity(), phoneNumber);
@@ -234,6 +233,7 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 					// Get values from contacts database:
 				    contactId = cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup._ID));
 				    name =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME));  
+				    photoUrl =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.PHOTO_URI)); 
 				}
 			}else{
 				
@@ -254,6 +254,7 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 						// Get values from contacts database:
 					    contactId = cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup._ID));
 					    name =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.DISPLAY_NAME));
+					    photoUrl =      cur.getString(cur.getColumnIndex(ContactsContract.PhoneLookup.PHOTO_URI)); 
 					    
 					}
 					
@@ -267,7 +268,14 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 			chatName.setText(name);
 		    int flags = DateUtils.FORMAT_ABBREV_RELATIVE;
 		    chatTime.setText(DateUtils.getRelativeTimeSpanString(date, System.currentTimeMillis(), DateUtils.MINUTE_IN_MILLIS, flags));
+		    if(photoUrl == null){
+		    	chatImage.setImageResource(R.drawable.noface);
+		     }else{
+		    	 chatImage.setImageURI(Uri.parse(photoUrl));
+		     }
+		    
 		   
+		    
 			
 		}
 
@@ -316,6 +324,8 @@ public class FragmentSipChatList extends Fragment implements LoaderCallbacks<Cur
 		sipId = sipId.substring(0, sipId.indexOf("@"));
 		return sipId;
 	}
+	
+	
 
 	@Override
 	public Loader<Cursor> onCreateLoader(int arg0, Bundle arg1) {

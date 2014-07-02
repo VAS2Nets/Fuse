@@ -1,7 +1,7 @@
 package com.vas2nets.fuse.sip.core;
 
 
-//import come.vas2nets.fuse.test.MyFuseService.MyBinder;
+//import com.vas2nets.fuse.MyFuseService.MyBinder;
 
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;

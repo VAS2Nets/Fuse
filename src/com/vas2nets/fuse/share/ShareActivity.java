@@ -5,9 +5,9 @@ import java.util.List;
 
 import org.brickred.socialauth.android.DialogListener;
 import org.brickred.socialauth.android.SocialAuthAdapter;
+import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
 import org.brickred.socialauth.android.SocialAuthError;
 import org.brickred.socialauth.android.SocialAuthListener;
-import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,23 +15,20 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.view.View.OnClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
+import android.widget.CompoundButton.OnCheckedChangeListener;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
-import android.widget.CompoundButton.OnCheckedChangeListener;
+
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 
 public class ShareActivity extends Activity {
 	
@@ -81,8 +78,8 @@ public class ShareActivity extends Activity {
 				adapter.addProvider(Provider.LINKEDIN, R.drawable.linkedin);
 				adapter.authorize(ShareActivity.this, Provider.LINKEDIN);
 			}else if(p == "Instagram"){
-				//adapter.addProvider(Provider.INSTAGRAM, R.drawable.instagram);
-				//adapter.authorize(ShareActivity.this, Provider.INSTAGRAM);
+				adapter.addProvider(Provider.INSTAGRAM, R.drawable.instagram);
+				adapter.authorize(ShareActivity.this, Provider.INSTAGRAM);
 			}
 			
 			responseText.append("The following contacts were selected...\n");

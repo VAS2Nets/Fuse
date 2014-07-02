@@ -1,16 +1,13 @@
 package com.vas2nets.fuse.social.facebook;
 
-import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Bundle;
 import android.view.Menu;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 import com.vas2nets.fuse.image.ImageLoader;
 
 public class FacebookFriendDetailActivity extends Activity {

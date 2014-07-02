@@ -32,12 +32,7 @@ import android.widget.Toast;
 
 import com.vas2nets.fuse.MainActivity;
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.array;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 import com.vas2nets.fuse.json.JSONParser;
-import com.vas2nets.fuse.util.Constants;
 
 public class RegisterPhoneNumberActivity extends Activity {
 	
@@ -51,7 +46,7 @@ public class RegisterPhoneNumberActivity extends Activity {
 	private JSONParser jParser = new JSONParser();
 	private JSONObject json;
 	private JSONArray output;
-	//private static final String USER_MODEL = "http://83.138.190.170/fuse/user.php";
+	private static final String USER_MODEL = "http://83.138.190.170/fuse/user.php";
 	
 	private String status;
 	private String sipId;
@@ -241,7 +236,7 @@ public class RegisterPhoneNumberActivity extends Activity {
 	public void verifyPhoneNumberDialog(String phoneNumber){
 		AlertDialog.Builder myAlertDialog = new AlertDialog.Builder(this);
 		myAlertDialog.setTitle("PhoneNumber Verification");
-	    myAlertDialog.setMessage(Constants.SMS_WILL_BE_SENT + "'" + phoneNumber + "'");
+	    myAlertDialog.setMessage("SMS will be sent to this number " + "'" + phoneNumber + "'");
 	    myAlertDialog.setPositiveButton("Confirm", new DialogInterface.OnClickListener() {
 	                public void onClick(DialogInterface arg0, int arg1) {
 	                   
@@ -257,7 +252,7 @@ public class RegisterPhoneNumberActivity extends Activity {
 	                		
 	                	}else{
 	            			
-	            			Toast.makeText(RegisterPhoneNumberActivity.this, Constants.NO_INTERNET_ACTIVITY, Toast.LENGTH_LONG).show();	
+	            			Toast.makeText(RegisterPhoneNumberActivity.this, "No Internet Connectivity....try again!!!", Toast.LENGTH_LONG).show();	
 	            		
 	            		}
 	                	
@@ -282,7 +277,7 @@ public class RegisterPhoneNumberActivity extends Activity {
 	 * --- and selected country into database
 	 *
 	 */
-	public class SmsAction extends AsyncTask<String, String, String> {
+	class SmsAction extends AsyncTask<String, String, String> {
 
 		@Override
 		protected String doInBackground(String... arg0) {
@@ -292,7 +287,7 @@ public class RegisterPhoneNumberActivity extends Activity {
 				params.add(new BasicNameValuePair("action", "signup"));
 				params.add(new BasicNameValuePair("phone", nonSpacePhoneNumber));
 				params.add(new BasicNameValuePair("country", "nigeria"));
-				json = jParser.makeHttpRequest(Constants.USER_MODEL, "POST", params);
+				json = jParser.makeHttpRequest(USER_MODEL, "POST", params);
 				
 				
 			}catch(Exception e){
@@ -304,7 +299,7 @@ public class RegisterPhoneNumberActivity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			pDialog = new ProgressDialog(RegisterPhoneNumberActivity.this);
-			pDialog.setMessage(Constants.SENDING_SMS);
+			pDialog.setMessage("Sending SMS...");
 			pDialog.setIndeterminate(false);
 			pDialog.setCancelable(true);
 			pDialog.show();
@@ -338,7 +333,7 @@ public class RegisterPhoneNumberActivity extends Activity {
 					startActivity(i);
 				}
 				else{
-					Toast.makeText(RegisterPhoneNumberActivity.this, Constants.COULD_NOT_SEND_SMS, Toast.LENGTH_LONG).show();	
+					Toast.makeText(RegisterPhoneNumberActivity.this, "Could not send SMS....try again!!!", Toast.LENGTH_LONG).show();	
 				}
 				
 			}catch(Exception e){

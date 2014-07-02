@@ -5,8 +5,6 @@ import org.brickred.socialauth.android.DialogListener;
 import org.brickred.socialauth.android.SocialAuthAdapter;
 import org.brickred.socialauth.android.SocialAuthError;
 
-
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -18,9 +16,6 @@ import android.widget.Toast;
 
 import com.vas2nets.fuse.MainActivity;
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 import com.vas2nets.fuse.db.ActiveSocialDB;
 
 public class AddSocialNetworksActivity extends Activity {

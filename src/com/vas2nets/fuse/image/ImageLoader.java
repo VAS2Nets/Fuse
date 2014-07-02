@@ -39,9 +39,6 @@ import java.util.WeakHashMap;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
-import com.vas2nets.fuse.file.FileCache;
-import com.vas2nets.fuse.memcache.MemoryCache;
-
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -50,6 +47,9 @@ import android.graphics.drawable.ColorDrawable;
 import android.os.Handler;
 import android.util.Log;
 import android.widget.ImageView;
+
+import com.vas2nets.fuse.file.FileCache;
+import com.vas2nets.fuse.memcache.MemoryCache;
 
 /**
  * Class for loading image in gridview
