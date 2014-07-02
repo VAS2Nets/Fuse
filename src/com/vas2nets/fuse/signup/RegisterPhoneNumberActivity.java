@@ -247,7 +247,8 @@ public class RegisterPhoneNumberActivity extends Activity {
 	                   
 	                	if(isOnline()){
 	                		
-	                		SharedPreferences pref = getApplicationContext().getSharedPreferences("FusePreferences", 0); // 0 - for private mode
+	                		SharedPreferences pref = getApplicationContext().getSharedPreferences("FusePreferences", 0); 
+	                		// 0 - for private mode
 	            			Editor editor = pref.edit();
 	            			editor.putString("FusePhoneNumber", nonSpacePhoneNumber);
 	            			editor.commit(); // commit changes

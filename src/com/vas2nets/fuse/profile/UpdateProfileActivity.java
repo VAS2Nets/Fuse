@@ -373,12 +373,11 @@ public class UpdateProfileActivity extends Activity {
 				if (status.equals("OK")){
 					Intent i = new Intent(UpdateProfileActivity.this, AddSocialNetworksActivity.class);
 					finish();
-					startActivity(i);
-					
+					startActivity(i);					
 					SharedPreferences pref = getApplicationContext().getSharedPreferences("FusePreferences", 0); // 0 - for private mode
 					  Editor editor = pref.edit();
 					  editor.putString("Loggedin", "yes");
-					  editor.commit(); // commit changes
+					  editor.commit(); // commit changes;;
 					
 				}else{
 					Toast.makeText(UpdateProfileActivity.this, "Could not Register....try again!!!", Toast.LENGTH_LONG).show();	
