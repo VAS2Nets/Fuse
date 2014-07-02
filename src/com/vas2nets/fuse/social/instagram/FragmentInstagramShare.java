@@ -5,8 +5,8 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.layout;
 
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.

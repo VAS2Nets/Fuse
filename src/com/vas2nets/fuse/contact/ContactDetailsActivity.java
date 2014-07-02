@@ -40,15 +40,11 @@ import com.csipsimple.api.ISipService;
 import com.csipsimple.api.SipProfile;
 import com.csipsimple.api.SipUri;
 import com.csipsimple.service.SipService;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
+import com.vas2nets.fuse.R;
 import com.vas2nets.fuse.json.JSONParser;
-import com.vas2nets.fuse.signup.RegisterPhoneNumberActivity.SmsAction;
 import com.vas2nets.fuse.sip.chat.SipChatActivity;
 import com.vas2nets.fuse.sms.SMSActivity;
-import com.vas2nets.fuse.R;
+//import com.vas2nets.fuse.RegisterPhoneNumberActivity.SmsAction;
 
 public class ContactDetailsActivity extends Activity {
 	

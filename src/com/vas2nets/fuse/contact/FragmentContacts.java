@@ -8,7 +8,6 @@ import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
@@ -36,12 +35,8 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
 import com.vas2nets.fuse.json.JSONParser;
 
 /**

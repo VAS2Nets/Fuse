@@ -5,24 +5,21 @@ import java.util.List;
 import org.brickred.socialauth.Feed;
 import org.brickred.socialauth.android.DialogListener;
 import org.brickred.socialauth.android.SocialAuthAdapter;
+import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
 import org.brickred.socialauth.android.SocialAuthError;
 import org.brickred.socialauth.android.SocialAuthListener;
-import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
 
 import android.content.Context;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
 
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.

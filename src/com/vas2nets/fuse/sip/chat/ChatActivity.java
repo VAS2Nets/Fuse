@@ -72,18 +72,11 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.color;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 import com.vas2nets.fuse.chat.smiley.SmileyClass;
 import com.vas2nets.fuse.contact.SelectContactsActivity;
 import com.vas2nets.fuse.db.DBHelper;
 import com.vas2nets.fuse.json.JSONParser;
 import com.vas2nets.fuse.location.LocationAnotherActivity;
-//import come.vas2nets.fuse.test.MyFuseService;
-//import come.vas2nets.fuse.test.MyFuseService.MyBinder;
 
 public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cursor> {
 	
@@ -361,7 +354,7 @@ public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cu
 		  
 		 // bindService(new Intent(ChatActivity.this, ChatService.class), mConnection, Context.BIND_AUTO_CREATE);
 		  
-		  //bindService(new Intent(ChatActivity.this, MyFuseService.class), conn, Context.BIND_AUTO_CREATE);
+		 // bindService(new Intent(ChatActivity.this, MyFuseService.class), conn, Context.BIND_AUTO_CREATE);
     	
 	}
 	

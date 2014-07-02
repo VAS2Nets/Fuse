@@ -15,8 +15,6 @@ import android.widget.TabHost.OnTabChangeListener;
 import android.widget.TabHost.TabContentFactory;
 
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
 
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.

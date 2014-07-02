@@ -11,13 +11,12 @@ import android.os.Bundle;
 import android.os.Handler;
 import android.util.Log;
 import android.view.Menu;
-import com.vas2nets.fuse.R;
+
 import com.vas2nets.fuse.signup.RegisterPhoneNumberActivity;
-import com.vas2nets.fuse.util.Constants;
 
 public class SplashActivity extends Activity {
 	
-	//private static int SPLASH_TIME_OUT = 3000;
+	private static int SPLASH_TIME_OUT = 3000;
 	private String phoneNumber;
 	private String redirect;
 	private String loggedIn;
@@ -48,9 +47,7 @@ public class SplashActivity extends Activity {
 		    	SharedPreferences pref1 = getApplicationContext().getSharedPreferences("FusePreferences", 0);
 		    	loggedIn = pref1.getString("Loggedin", null);
 		    	
-		    	/* are we logged in or not?
-		    	 * 
-		    	 */
+		    	
 		    	if (loggedIn == null){
 		    		Intent intent = new Intent(SplashActivity.this, RegisterPhoneNumberActivity.class);
 		    		startActivity(intent);
@@ -65,7 +62,7 @@ public class SplashActivity extends Activity {
 		        finish();
 			}
 			
-		 }, Constants.SPLASH_TIME_OUT);
+		 }, SPLASH_TIME_OUT);
 	}
 	
 	 @Override

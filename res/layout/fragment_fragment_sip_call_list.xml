@@ -1,0 +1,24 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentSipCallList" >
+
+     <!-- TODO: Update blank fragment layout -->
+
+     <!-- List View -->
+    <ListView
+        android:id="@+id/mycalllist_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="5dp"/>
+    
+    <!-- view to be shown/hidden on empty list above -->
+    <TextView
+        android:id="@+id/emptyListElem"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"            
+        android:gravity="center"
+        android:text="No Calls"
+        android:visibility="gone" />
+</FrameLayout>

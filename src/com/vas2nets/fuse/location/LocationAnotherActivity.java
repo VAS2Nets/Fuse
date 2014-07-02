@@ -15,8 +15,8 @@ import android.widget.TextView;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
-import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.GoogleMap.InfoWindowAdapter;
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
@@ -29,10 +29,6 @@ import com.nostra13.universalimageloader.core.ImageLoaderConfiguration;
 import com.nostra13.universalimageloader.core.assist.QueueProcessingType;
 import com.nostra13.universalimageloader.core.assist.SimpleImageLoadingListener;
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 
 public class LocationAnotherActivity extends FragmentActivity {
 	

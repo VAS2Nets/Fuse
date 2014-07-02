@@ -15,11 +15,8 @@ import android.util.Log;
 import android.view.Menu;
 import android.widget.ImageView;
 import android.widget.TextView;
+
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 
 public class CallActivity extends Activity {
 	

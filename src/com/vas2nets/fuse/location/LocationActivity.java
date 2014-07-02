@@ -12,9 +12,6 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.R.menu;
 
 public class LocationActivity extends Activity {
 	

@@ -11,15 +11,6 @@ import org.brickred.socialauth.android.SocialAuthAdapter.Provider;
 import org.brickred.socialauth.android.SocialAuthError;
 import org.brickred.socialauth.android.SocialAuthListener;
 
-import com.vas2nets.fuse.R.drawable;
-import com.vas2nets.fuse.R.id;
-import com.vas2nets.fuse.R.layout;
-import com.vas2nets.fuse.db.ActiveSocialDB;
-import com.vas2nets.fuse.sip.chat.ChatMessage;
-import com.vas2nets.fuse.social.core.AddSocialNetworksActivity;
-import com.vas2nets.fuse.social.instagram.FragmentInstagramHome.DownloadImageTask;
-import com.vas2nets.fuse.R;
-
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -38,6 +29,12 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.vas2nets.fuse.R;
+import com.vas2nets.fuse.db.ActiveSocialDB;
+import com.vas2nets.fuse.sip.chat.ChatMessage;
+import com.vas2nets.fuse.social.core.AddSocialNetworksActivity;
+//import com.vas2nets.fuse.FragmentInstagramHome.DownloadImageTask;
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.
  * 

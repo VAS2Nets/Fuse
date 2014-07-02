@@ -1,7 +1,6 @@
 package com.vas2nets.fuse.sip.core;
 
 
-
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
