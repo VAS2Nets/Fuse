@@ -82,8 +82,6 @@ public class MainActivity extends FragmentActivity  {
 	 private static final String THIS_FILE = "SampleCSipSimpleAppActivity";
 	 private static final String SAMPLE_ALREADY_SETUP = "sample_already_setup";
 	 private long existingProfileId = SipProfile.INVALID_ID;
-	
-	
 	private String[] menus;
     private DrawerLayout mDrawerLayout;
     private ListView mDrawerList;
@@ -93,9 +91,6 @@ public class MainActivity extends FragmentActivity  {
     TextView commentTxtView;
 	ImageView shareButton;
     
-	
-	 
-	 
 	// slide menu items
 	    private String[] navMenuTitles;
 	    private TypedArray navMenuIcons;
@@ -272,7 +267,7 @@ public class MainActivity extends FragmentActivity  {
  
             /** Called when a drawer has settled in a completely closed state. */
             public void onDrawerClosed(View view) {
-                getActionBar().setTitle(mTitle);
+                getActionBar().setTitle(mTitle);//
                
             }
  
