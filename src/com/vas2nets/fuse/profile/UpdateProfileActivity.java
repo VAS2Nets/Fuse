@@ -44,8 +44,8 @@ import com.google.android.gms.common.GooglePlayServicesUtil;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.vas2nets.fuse.MainActivity;
 import com.vas2nets.fuse.R;
-import com.vas2nets.fuse.contact.ContactDBHelper;
 import com.vas2nets.fuse.contact.FuseContactContentProvider;
+import com.vas2nets.fuse.db.ContactDBHelper;
 import com.vas2nets.fuse.db.DBHelper;
 import com.vas2nets.fuse.image.PhotoUtility;
 import com.vas2nets.fuse.json.JSONParser;
@@ -105,10 +105,10 @@ public class UpdateProfileActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_update_profile);
 
-		ftv = (TextView) findViewById(R.id.firstnameeditText);
-		ltv = (TextView) findViewById(R.id.lastnameeditText);
-		etv = (TextView) findViewById(R.id.emaileditText);
-		profilepix = (ImageView) findViewById(R.id.myprofileimageView);
+		ftv = (TextView) findViewById(R.id.firstName);
+		ltv = (TextView) findViewById(R.id.lastName);
+		etv = (TextView) findViewById(R.id.email);
+		profilepix = (ImageView) findViewById(R.id.myprofileImage);
 
 		SharedPreferences pref = getApplicationContext().getSharedPreferences(
 				"FusePreferences", 0);

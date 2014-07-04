@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+   	android:paddingTop="30dp"
+    android:background="#33b5e5"
+    tools:context=".FragmentProfile" >
+
+    <RelativeLayout
+    	android:layout_width="fill_parent"
+    	android:layout_height="fill_parent">
+    
+     <TextView
+         android:id="@+id/output1"
+         style="@style/button_text"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="15dp"
+         android:text="Update Your Profile"
+         android:textSize="35px" />
+    
+    <ImageView
+        android:id="@+id/myprofileImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@+id/output1"
+        android:layout_below="@+id/output1"
+        android:layout_marginRight="15dp"
+        android:onClick="pickPicture"
+        android:src="@drawable/nofacess" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/myprofileImage"
+        android:layout_alignLeft="@+id/myprofileImage"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/firstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Firstname"
+            android:inputType="textPersonName"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin" >
+
+        <requestFocus />
+    </EditText>
+    
+         <EditText
+             android:id="@+id/lastName"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:ems="10"
+             android:hint="Lastname"
+             android:inputType="textPersonName"
+             android:paddingBottom="@dimen/activity_vertical_margin"
+             android:paddingLeft="@dimen/activity_horizontal_margin"
+             android:paddingRight="@dimen/activity_horizontal_margin"
+             android:paddingTop="@dimen/activity_horizontal_margin" >
+
+    </EditText>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="10dp"
+        android:layout_below="@+id/linearLayout1"
+        android:layout_alignLeft="@+id/linearLayout1"
+        android:background="@drawable/background"
+        android:orientation="vertical" >
+        
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_horizontal_margin" >
+
+        </EditText>
+        </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_save"
+        style="@style/button_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/linearLayout2"
+        android:layout_below="@+id/linearLayout2"
+        android:layout_marginTop="54dp"
+        android:background="@drawable/red_button"
+        android:onClick="updateUser"
+        android:text="Save" />
+
+    </RelativeLayout>
+
+</ScrollView>

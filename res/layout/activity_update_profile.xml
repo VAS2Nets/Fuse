@@ -23,7 +23,7 @@
         android:textSize="35px" /> 
     
     <ImageView
-        android:id="@+id/myprofileimageView"
+        android:id="@+id/myprofileImage"
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:layout_marginRight="15dp"
@@ -38,13 +38,13 @@
         android:layout_height="150dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
-        android:layout_below="@+id/myprofileimageView"
-        android:layout_alignLeft="@+id/myprofileimageView"
+        android:layout_below="@+id/myprofileImage"
+        android:layout_alignLeft="@+id/myprofileImage"
         android:background="@drawable/background"
         android:orientation="vertical" >
         
         <EditText
-        android:id="@+id/firstnameeditText"
+        android:id="@+id/firstName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/activity_vertical_margin"
@@ -59,7 +59,7 @@
     </EditText>
     
          <EditText
-        android:id="@+id/lastnameeditText"
+        android:id="@+id/lastName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/activity_vertical_margin"
@@ -84,7 +84,7 @@
         android:orientation="vertical" >
         
         <EditText
-        android:id="@+id/emaileditText"
+        android:id="@+id/email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingBottom="@dimen/activity_vertical_margin"
@@ -100,7 +100,7 @@
     
 
     <Button
-        android:id="@+id/recordpbutton"
+        android:id="@+id/btn_save"
         style="@style/button_text"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

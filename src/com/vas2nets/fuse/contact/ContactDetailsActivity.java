@@ -41,6 +41,7 @@ import com.csipsimple.api.SipProfile;
 import com.csipsimple.api.SipUri;
 import com.csipsimple.service.SipService;
 import com.vas2nets.fuse.R;
+import com.vas2nets.fuse.db.ContactDBHelper;
 import com.vas2nets.fuse.json.JSONParser;
 import com.vas2nets.fuse.sip.chat.SipChatActivity;
 import com.vas2nets.fuse.sms.SMSActivity;
