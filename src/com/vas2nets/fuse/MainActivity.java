@@ -46,6 +46,7 @@ import com.vas2nets.fuse.home.FragmentHomeSwipe;
 import com.vas2nets.fuse.navigation.NavDrawerItem;
 import com.vas2nets.fuse.navigation.NavDrawerListAdapter;
 import com.vas2nets.fuse.profile.FragmentProfile;
+import com.vas2nets.fuse.social.core.AddSocialActivity;
 import com.vas2nets.fuse.social.core.MySocialService;
 import com.vas2nets.fuse.social.facebook.FragmentFacebookSwipe;
 import com.vas2nets.fuse.social.instagram.FragmentInstagramSwipe;
@@ -438,5 +439,10 @@ public class MainActivity extends FragmentActivity  {
 		}
 
     }
+    
+    public void addSocials(View v){	
+		 Intent i = new Intent(this, AddSocialActivity.class);
+		 startActivity(i);
+}
    
 }

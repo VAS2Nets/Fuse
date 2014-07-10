@@ -8,22 +8,16 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
 
 public class ActiveSocialDB extends SQLiteOpenHelper {
-	
+	private static final int DATABASE_VERSION = 1;
 	public static String DATABASE_NAME	= "selectedproviders.dba";
-	
 	public static String PROVIDER_TABLE_NAME = "providertable";
 	public static String PROVIDER_ID = "_id";
 	public static String PROVIDER_NAME = "providername";
-	
-	
-
-	public ActiveSocialDB(Context context) {
-		super(context, DATABASE_NAME, null, 1);
-	}
 
 	@Override
 	public void onCreate(SQLiteDatabase db) {
@@ -81,5 +75,9 @@ public class ActiveSocialDB extends SQLiteOpenHelper {
         // return count
         return cursor.getCount();
     }
+	
+	public ActiveSocialDB(Context context) {
+	    super(context, DATABASE_NAME, null, DATABASE_VERSION);
+	  }
 
 }

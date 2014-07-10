@@ -698,7 +698,6 @@
             </intent-filter>
         </receiver>
 
-   
         <!--
         <receiver
             android:name="com.vas2nets.fuse.sip.core.SipIncomingCallReceiver"
@@ -802,7 +801,6 @@
             android:name="com.vas2nets.fuse.TinySipDemoActivity"
             android:label="@string/title_activity_tiny_sip_demo" >
         </activity>
-       
         <activity
             android:name="com.vas2nets.fuse.SocialNetworksActivity"
             android:label="@string/title_activity_social_networks"
@@ -848,6 +846,11 @@
         <activity
             android:name="com.vas2nets.fuse.sip.chat.SipChatActivity"
             android:label="@string/title_activity_sip_chat" >
+        </activity>
+        <activity
+            android:name="com.vas2nets.fuse.social.core.AddSocialActivity"
+            android:label="@string/title_activity_add_social"
+            android:theme="@style/Theme.FullScreen" >
         </activity>
     </application>
 

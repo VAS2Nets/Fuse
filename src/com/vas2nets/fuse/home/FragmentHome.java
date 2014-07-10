@@ -24,29 +24,44 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.View.OnClickListener;
+import android.webkit.WebView.FindListener;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.vas2nets.fuse.R;
 import com.vas2nets.fuse.db.ActiveSocialDB;
 import com.vas2nets.fuse.sip.chat.ChatMessage;
-import com.vas2nets.fuse.social.core.AddSocialNetworksActivity;
+import com.vas2nets.fuse.social.core.AddSocialActivity;
+import com.vas2nets.fuse.social.core.CustomSocialAdapter;
+//import com.vas2nets.fuse.social.core.AddSocialNetworksActivity.ResponseListener;
 //import com.vas2nets.fuse.FragmentInstagramHome.DownloadImageTask;
 /**
  * A simple {@link android.support.v4.app.Fragment} subclass.
  * 
  */
-public class FragmentHome extends Fragment 
+public class FragmentHome extends Fragment
 {
-	private ActiveSocialDB db;
+	ActiveSocialDB db;
 	List<String> allProviders;
 	
 	SocialAuthAdapter adapter;
+	
+	SocialAuthAdapter madapter;
+	
 	ListView list;
 	ProgressDialog pd;
+	private ListView listview;
+	public static int pos;
+	String providerName;
+	private Context values;
+	private Button emptyTxt;
 
 	
 	
@@ -60,6 +75,7 @@ public class FragmentHome extends Fragment
 		
 	}
 	
+	
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
 			Bundle savedInstanceState) {
@@ -67,17 +83,31 @@ public class FragmentHome extends Fragment
 		View view = inflater.inflate(R.layout.fragment_fragment_home, container, false);
 		
 		list = (ListView) view.findViewById(R.id.homefeedlistView);
+		//emptyTxt = (TextView) getActivity().findViewById(R.id.homeemptyListElem);
+		emptyTxt = (Button) view.findViewById(R.id.homeemptyListElem);
 		pd = new ProgressDialog(getActivity());
 		
-		
+		//db = new ActiveSocialDB(this);
 		db = new ActiveSocialDB(getActivity());
 		allProviders = new ArrayList<String>();
 		adapter = new SocialAuthAdapter(new ResponseListener());
-		adapter.addProvider(Provider.FACEBOOK, R.drawable.facebook);
-		adapter.authorize(getActivity(), Provider.FACEBOOK);
+		//adapter.addProvider(Provider.FACEBOOK, R.drawable.facebook);
+		//adapter.authorize(getActivity(), Provider.FACEBOOK);
 		
-		/*
+		//If db.getAllProviders is null, load the socialNetworkActivity view
+		// and onclick of any button there load AddsocialNetworkActivity view.
+		
+		
 		allProviders = db.getAllProviders();
+		if (allProviders.isEmpty()) {
+			//TextView emptyTxt = (TextView) getActivity().findViewById(R.id.homeemptyListElem);
+			emptyTxt.setVisibility(view.VISIBLE);
+			emptyTxt.setText("No Feeds! Click to get feeds from social networks!");
+			//View empty = getActivity().findViewById(R.id.emptyListElem);  
+			//empty.setVisibility(View.VISIBLE);
+			list.setEmptyView(emptyTxt);
+            
+        } else	{
 		
 		for (String provider : allProviders){
 			
@@ -114,9 +144,10 @@ public class FragmentHome extends Fragment
 			}
 			
 		}
-		*/
+        }
 		return view;
 	}
+	
 	
 	
 	private final class ResponseListener implements DialogListener {
@@ -151,7 +182,7 @@ public class FragmentHome extends Fragment
 		}
 		
 	}
-	
+		
 	private final class FeedDataListener implements SocialAuthListener<List<Feed>> {
 
 		@Override
@@ -172,10 +203,6 @@ public class FragmentHome extends Fragment
 	}
 	
 	
-	
-	
-
-
 	
 	private class HomeAdapter extends ArrayAdapter<Feed>{
 		
@@ -210,9 +237,9 @@ public class FragmentHome extends Fragment
 			View row = inflater.inflate(R.layout.homecustomlist, parent,false);
 			
 			//facebook component
-			TextView ffeeds = (TextView)row.findViewById(R.id.homefacebookmessagetextView);
-			TextView ffeedsTime = (TextView)row.findViewById(R.id.homefacebooktimetextView);
-			//TextView fprovidertxt = (TextView)row.findViewById(R.id.homefacebookprovidertextView);
+			TextView ffeeds = (TextView)row.findViewById(R.id.homemessagetextView);
+			TextView ffeedsTime = (TextView)row.findViewById(R.id.hometimetextView);
+		    ImageView fproviderImage = (ImageView)row.findViewById(R.id.homeproviderImageView);
 			
 			//instagram component
 			ImageView ifeeds = (ImageView)row.findViewById(R.id.homeinstagramimageView);
@@ -225,6 +252,21 @@ public class FragmentHome extends Fragment
 			String message = nt.get(position).getMessage();
 			String time = String.valueOf(nt.get(position).getCreatedAt().getHours()) + ":" + String.valueOf(nt.get(position).getCreatedAt().getMinutes());
 			String providerName = adapter.getCurrentProvider().getAccessGrant().getProviderId();
+			
+			if (providerName.equals("facebook")){
+				fproviderImage.setImageResource(R.drawable.facebook);
+			} else if(providerName.equals("twitter"))	{
+				fproviderImage.setImageResource(R.drawable.twitter);
+			} else if(providerName.equals("linkedin"))	{
+				fproviderImage.setImageResource(R.drawable.linkedin);
+			} else if(providerName.equals("foursquare"))	{
+				fproviderImage.setImageResource(R.drawable.foursquare);
+			} else if(providerName.equals("yahoo"))	{
+				fproviderImage.setImageResource(R.drawable.yahoo);
+			} else if(providerName.equals("googleplus"))	{
+				fproviderImage.setImageResource(R.drawable.googleplus);
+			}
+			
 			
 			rFacebook.setVisibility(View.VISIBLE);
 			rInstagram.setVisibility(View.GONE);
@@ -278,10 +320,10 @@ public class FragmentHome extends Fragment
 		
 	}
 	
-	public void addSocials(View v){	
-			 Intent i = new Intent(getActivity(), AddSocialNetworksActivity.class);
+	/*public void addSocials(View v){	
+			 Intent i = new Intent(getActivity(), AddSocialActivity.class);
 			 startActivity(i);
-	}
+	} */
 	
 	
 	class DownloadImageTask extends AsyncTask<String, Void, Bitmap> {
@@ -327,8 +369,5 @@ public class FragmentHome extends Fragment
 	     
 	    
 	  }
-    
-
-
-	
+	      	
 }

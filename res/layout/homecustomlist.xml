@@ -11,7 +11,7 @@
         android:layout_height="match_parent" >
         
 			   <ImageView
-			             android:id="@+id/homefacebookprovidertextView"
+			             android:id="@+id/homeproviderImageView"
 			             android:layout_width="wrap_content"
 			             android:layout_height="wrap_content"
 			             android:layout_alignParentLeft="true"
@@ -21,7 +21,7 @@
 			             android:text="Provider" />
 
 			    <TextView
-			        android:id="@+id/homefacebookmessagetextView"
+			        android:id="@+id/homemessagetextView"
 			        android:layout_width="wrap_content"
 			        android:layout_height="wrap_content"
 			        android:layout_alignTop="@+id/homefacebookprovidertextView"
@@ -30,7 +30,7 @@
 			        android:text="Message" />
 
 			    <TextView
-			        android:id="@+id/homefacebooktimetextView"
+			        android:id="@+id/hometimetextView"
 			        android:layout_width="wrap_content"
 			        android:layout_height="wrap_content"
 			        android:layout_alignLeft="@+id/homefacebookmessagetextView"

@@ -51,7 +51,7 @@ import com.vas2nets.fuse.contact.FuseContactContentProvider;
 import com.vas2nets.fuse.db.DBHelper;
 import com.vas2nets.fuse.image.PhotoUtility;
 import com.vas2nets.fuse.json.JSONParser;
-import com.vas2nets.fuse.social.core.AddSocialNetworksActivity;
+import com.vas2nets.fuse.social.core.AddSocialActivity;
 import com.vas2nets.fuse.user.UserContentProvider;
 
 @TargetApi(Build.VERSION_CODES.GINGERBREAD)
@@ -370,7 +370,8 @@ public class UpdateProfileActivity extends Activity {
 				
 				if (status.equals("OK")){
 					//Toast.makeText(UpdateProfileActivity.this, "At the point of change!!!", Toast.LENGTH_LONG).show();	
-					Intent i = new Intent(UpdateProfileActivity.this, AddSocialNetworksActivity.class);
+					//Intent i = new Intent(UpdateProfileActivity.this, AddSocialNetworksActivity.class);
+					Intent i = new Intent(UpdateProfileActivity.this, AddSocialActivity.class);
 					finish();
 					startActivity(i);
 					

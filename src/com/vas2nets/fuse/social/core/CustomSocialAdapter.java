@@ -99,7 +99,7 @@ public class CustomSocialAdapter extends BaseAdapter {
 			@Override
 			public void onClick(View v) {
 
-				AddSocialNetworksActivity.pos = position;
+				AddSocialActivity.pos = position;
 				
 				
 
@@ -138,7 +138,7 @@ public class CustomSocialAdapter extends BaseAdapter {
 				final String text = (String) ((TextView) v).getText();
 
 				if (text.equalsIgnoreCase("sign in")) {
-					AddSocialNetworksActivity.pos = position;
+					AddSocialActivity.pos = position;
 
 					// Use addCallback method if using
 					// your own keys for FOURSQUARE , GOOGLE , SALESFORCE ,

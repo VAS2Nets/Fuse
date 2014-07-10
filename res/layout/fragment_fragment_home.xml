@@ -4,9 +4,9 @@
     android:layout_height="match_parent"
     tools:context=".FragmentHome" >
 
-    <RelativeLayout
+  <!--  <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" > -->
 
         <ListView
             android:id="@+id/homefeedlistView"
@@ -16,18 +16,30 @@
             android:layout_alignParentTop="true"
             android:layout_marginTop="18dp" >
         </ListView>
-        
-         <!-- view to be shown/hidden on empty list above -->
-   		 <TextView
+         
+         <!-- view to be shown/hidden on empty list above
+   		 <ImageView
         android:id="@+id/homeemptyListElem"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"            
         android:gravity="center"
         android:text="No Feeds! Click to get feeds social networks"
         android:visibility="gone"
+        android:contentDescription="No Feeds! Click to get feeds social networks"
+        android:onClick="addSocials" />  -->
+   		 
+   		 <Button
+        android:id="@+id/homeemptyListElem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="No Feeds! Click to get feeds social networks"
+        android:visibility="gone"
+        android:background="@drawable/red_button"
+        style="@style/button_text"
         android:onClick="addSocials" />
         
        
-    </RelativeLayout>
+   <!-- </RelativeLayout> -->
 
 </FrameLayout>
