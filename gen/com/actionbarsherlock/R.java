@@ -240,13 +240,8 @@ public final class R {
 		public static final int abs__screen_action_bar_overlay = 0x7f030011;
 		public static final int abs__screen_simple = 0x7f030012;
 		public static final int abs__screen_simple_overlay_action_mode = 0x7f030013;
-<<<<<<< HEAD
-		public static final int sherlock_spinner_dropdown_item = 0x7f030093;
-		public static final int sherlock_spinner_item = 0x7f030094;
-=======
-		public static final int sherlock_spinner_dropdown_item = 0x7f030097;
-		public static final int sherlock_spinner_item = 0x7f030098;
->>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
+		public static final int sherlock_spinner_dropdown_item = 0x7f030098;
+		public static final int sherlock_spinner_item = 0x7f030099;
 	}
 	public static final class string {
 		public static final int abs__action_bar_home_description = 0x7f0b0000;
