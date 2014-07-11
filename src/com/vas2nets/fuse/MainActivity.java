@@ -56,12 +56,9 @@ import com.vas2nets.fuse.navigation.NavDrawerItem;
 import com.vas2nets.fuse.navigation.NavDrawerListAdapter;
 import com.vas2nets.fuse.profile.EditProfileFragment;
 import com.vas2nets.fuse.profile.FragmentProfile;
-<<<<<<< HEAD
 import com.vas2nets.fuse.social.core.AddSocialActivity;
-=======
 import com.vas2nets.fuse.profile.PFragment;
 //import com.vas2nets.fuse.profile.FragmentProfile.SaveMyProfile;
->>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
 import com.vas2nets.fuse.social.core.MySocialService;
 import com.vas2nets.fuse.social.facebook.FragmentFacebookSwipe;
 import com.vas2nets.fuse.social.instagram.FragmentInstagramSwipe;
@@ -598,7 +595,6 @@ public class MainActivity extends FragmentActivity {
 			return null;
 		}
 
-<<<<<<< HEAD
     }
     
     public void addSocials(View v){	
@@ -606,8 +602,6 @@ public class MainActivity extends FragmentActivity {
 		 startActivity(i);
 }
    
-=======
 	}
 
->>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
-}
+
