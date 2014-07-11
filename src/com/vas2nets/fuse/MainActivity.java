@@ -9,6 +9,9 @@ package com.vas2nets.fuse;
  *    
  * 3. Download Latest Project Files
  * 	git pull origin
+ * 4. To clean repository
+ * 
+ * git clean -d -fx " "
  * 
  */
 import java.io.ByteArrayOutputStream;
