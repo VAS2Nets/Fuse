@@ -55,7 +55,7 @@ import com.vas2nets.fuse.image.PicturePicker;
 import com.vas2nets.fuse.navigation.NavDrawerItem;
 import com.vas2nets.fuse.navigation.NavDrawerListAdapter;
 import com.vas2nets.fuse.profile.EditProfileFragment;
-<<<<<<< HEAD
+
 import com.vas2nets.fuse.profile.FragmentProfile;
 
 import com.vas2nets.fuse.social.core.AddSocialActivity;
@@ -63,12 +63,11 @@ import com.vas2nets.fuse.social.core.AddSocialActivity;
 import com.vas2nets.fuse.profile.PFragment;
 //import com.vas2nets.fuse.profile.FragmentProfile.SaveMyProfile;
 
-=======
 import com.vas2nets.fuse.profile.FragmentProfile;
 import com.vas2nets.fuse.social.core.AddSocialActivity;
 import com.vas2nets.fuse.profile.PFragment;
 //import com.vas2nets.fuse.profile.FragmentProfile.SaveMyProfile;
->>>>>>> c588b8dd3f08855e33d048c019cb0c315698f296
+
 import com.vas2nets.fuse.social.core.MySocialService;
 import com.vas2nets.fuse.social.facebook.FragmentFacebookSwipe;
 import com.vas2nets.fuse.social.instagram.FragmentInstagramSwipe;
@@ -604,10 +603,7 @@ public class MainActivity extends FragmentActivity {
 			// new InsertIntoDB().execute();
 			return null;
 		}
-<<<<<<< HEAD
 
-=======
->>>>>>> c588b8dd3f08855e33d048c019cb0c315698f296
 
     }
     
@@ -615,17 +611,4 @@ public class MainActivity extends FragmentActivity {
 		 Intent i = new Intent(this, AddSocialActivity.class);
 		 startActivity(i);
 }
-<<<<<<< HEAD
-   
-
-=======
-   
->>>>>>> c588b8dd3f08855e33d048c019cb0c315698f296
-	}
-
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> c588b8dd3f08855e33d048c019cb0c315698f296
+}
