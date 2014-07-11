@@ -137,7 +137,7 @@ public class UpdateProfileActivity extends Activity {
 		 */
 
 		dbHelper = new ContactDBHelper(getApplicationContext());
-		getPhoneNumbers(); // get all contacts phone numbers
+		//getPhoneNumbers(); // get all contacts phone numbers
 
 	}
 
@@ -372,6 +372,7 @@ public class UpdateProfileActivity extends Activity {
 					//Intent i = new Intent(UpdateProfileActivity.this, AddSocialNetworksActivity.class);
 					Intent i = new Intent(UpdateProfileActivity.this, AddSocialActivity.class);
 
+
 				storeNumbersInSqlite(allPhones); // stores all contacts phone
 													// numbers in sqlite for
 													// persistence
@@ -396,8 +397,11 @@ public class UpdateProfileActivity extends Activity {
 					editor.commit(); // commit changes;;
 
 					editor.commit(); // commit changes
+					/*
 					Intent i = new Intent(UpdateProfileActivity.this,
-							AddSocialActivity.class);
+							AddSocialNetworksActivity.class);
+							*/
+
 					finish();
 					startActivity(i);
 
@@ -407,7 +411,7 @@ public class UpdateProfileActivity extends Activity {
 							Toast.LENGTH_LONG).show();
 				}
 
-			} catch (Exception e) {
+			} }catch (Exception e) {
 
 			}
 		}
@@ -503,7 +507,7 @@ public class UpdateProfileActivity extends Activity {
 			}
 		}
 		cur.close();
-		return allContacts;
+		return allContacts;// updated 123
 	}
 
 	@Override
@@ -513,5 +517,4 @@ public class UpdateProfileActivity extends Activity {
 		return true;
 	}
 
-	}
 }
