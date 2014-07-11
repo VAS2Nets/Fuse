@@ -1,5 +1,28 @@
 package com.vas2nets.fuse;
 
+/*
+ * Standard operating procedures
+ * 
+ * 1. pull the latest
+ * 2. make your changes
+ * 3. push to git hub
+ * 
+ * 
+ * Git Basic
+ * 1. cd to fuse directory on command line
+ * 2. Update your changes on Git
+ *    a.) git add .
+ *    b) git commit -m 'jonathan.2014.07.11.2.48'
+ *    c) git push
+ *    
+ * 3. Download Latest Project Files
+ * 	git pull origin
+ * 4. To clean repository
+ * 
+ * git clean -d -fx " "
+ * 
+ */
+
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
