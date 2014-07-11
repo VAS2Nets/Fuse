@@ -1,5 +1,12 @@
 package com.vas2nets.fuse;
 /*
+ * Standard operating procedures
+ * 
+ * 1. pull the latest
+ * 2. make your changes
+ * 3. push to git hub
+ * 
+ * 
  * Git Basic
  * 1. cd to fuse directory on command line
  * 2. Update your changes on Git
