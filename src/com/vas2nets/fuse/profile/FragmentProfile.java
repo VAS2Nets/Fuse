@@ -42,7 +42,11 @@ import com.vas2nets.fuse.R;
 import com.vas2nets.fuse.db.DBHelper;
 import com.vas2nets.fuse.image.PhotoUtility;
 import com.vas2nets.fuse.profile.UpdateProfileActivity.UpdateMyProfile;
+<<<<<<< HEAD
 //import com.vas2nets.fuse.social.core.AddSocialNetworksActivity;
+=======
+import com.vas2nets.fuse.social.core.AddSocialActivity;
+>>>>>>> c588b8dd3f08855e33d048c019cb0c315698f296
 import com.vas2nets.fuse.user.UserContentProvider;
 
 /**
