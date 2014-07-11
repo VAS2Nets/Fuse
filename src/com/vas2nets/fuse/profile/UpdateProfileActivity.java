@@ -1,5 +1,5 @@
 package com.vas2nets.fuse.profile;
-
+// nine
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -514,7 +514,7 @@ public class UpdateProfileActivity extends Activity {
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.update_profile, menu);
-		return true;
+		return true;// end
 	}
 
 }
