@@ -58,7 +58,7 @@
         </LinearLayout>
 
      <Button
-         android:id="@+id/recordpbutton"
+         android:id="@+id/btn_save"
          android:layout_width="fill_parent"
          android:layout_height="wrap_content"
          android:layout_alignLeft="@+id/linearLayout1"

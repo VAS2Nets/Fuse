@@ -837,7 +837,7 @@ public class ChatActivity extends FragmentActivity implements LoaderCallbacks<Cu
 		dialog.setContentView(R.layout.record_layout);
 		dialog.setTitle("Voice Note");
 		
-		record_dialogButton = (Button) dialog.findViewById(R.id.recordpbutton);
+		record_dialogButton = (Button) dialog.findViewById(R.id.btn_save);
 		start_dialogText = (TextView) dialog.findViewById(R.id.startptextView);
 		bar = (ProgressBar) dialog.findViewById(R.id.progressBar);
 		bar.setMax(30);

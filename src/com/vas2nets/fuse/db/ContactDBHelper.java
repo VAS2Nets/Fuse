@@ -1,4 +1,4 @@
-package com.vas2nets.fuse.contact;
+package com.vas2nets.fuse.db;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;

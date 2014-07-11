@@ -29,7 +29,7 @@
         android:progressDrawable="@drawable/greenprogress" />
 
     <Button
-        android:id="@+id/recordpbutton"
+        android:id="@+id/btn_save"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/startptextView"
@@ -43,7 +43,7 @@
         android:id="@+id/cancelpbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/recordpbutton"
+        android:layout_alignBottom="@+id/btn_save"
         android:layout_alignRight="@+id/endptextView"
         android:background="#33b5e5"
         android:width="90dp"
@@ -53,7 +53,7 @@
         android:id="@+id/endptextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/recordpbutton"
+        android:layout_above="@+id/btn_save"
         android:layout_marginLeft="15dp"
         android:layout_toRightOf="@+id/progressBar"
         android:text="00:30" />

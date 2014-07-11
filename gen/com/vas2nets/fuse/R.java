@@ -1904,6 +1904,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int abs__up=0x7f06000b;
         public static final int accountChooserButton=0x7f0600cf;
         public static final int accountChooserButtonText=0x7f060106;
+<<<<<<< HEAD
         public static final int account_label1=0x7f06018c;
         public static final int account_label2=0x7f060190;
         public static final int account_label3=0x7f060194;
@@ -1916,22 +1917,49 @@ So, (94 - 38)/2 ==> 28dp
         public static final int action_websearch=0x7f0601ee;
         public static final int activeCallsGrid=0x7f060169;
         public static final int addCallButton=0x7f0601ec;
+=======
+        public static final int account_label1=0x7f06018b;
+        public static final int account_label2=0x7f06018f;
+        public static final int account_label3=0x7f060193;
+        public static final int accounts_container=0x7f060187;
+        public static final int action_add_person=0x7f0601da;
+        public static final int action_done=0x7f0601f2;
+        public static final int action_edit=0x7f0601ee;
+        public static final int action_icon=0x7f060127;
+        public static final int action_settings=0x7f0601d6;
+        public static final int action_websearch=0x7f0601ed;
+        public static final int activeCallsGrid=0x7f060168;
+        public static final int addCallButton=0x7f0601eb;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int addchateditText=0x7f060058;
         public static final int additemimageView=0x7f060057;
         public static final int allnetworkslistView=0x7f060088;
         public static final int attachment=0x7f0600d9;
+<<<<<<< HEAD
         public static final int audio_test=0x7f0601f0;
+=======
+        public static final int audio_test=0x7f0601ef;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int audio_test_text=0x7f06009d;
         public static final int autoCompleteList=0x7f0600e5;
         public static final int badge=0x7f0600de;
         public static final int bar_onoff=0x7f060044;
         public static final int bgImageView=0x7f060069;
         public static final int blue_separator=0x7f0600a5;
+<<<<<<< HEAD
         public static final int bluetoothButton=0x7f0601eb;
         public static final int bottom=0x7f060011;
         public static final int bottom_panel=0x7f0600d1;
         public static final int btn_account=0x7f0601cc;
         public static final int btn_shortcut=0x7f0601d1;
+=======
+        public static final int bluetoothButton=0x7f0601ea;
+        public static final int bottom=0x7f060011;
+        public static final int bottom_panel=0x7f0600d1;
+        public static final int btn_account=0x7f0601cb;
+        public static final int btn_save=0x7f060049;
+        public static final int btn_shortcut=0x7f0601d0;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int button0=0x7f0600ef;
         public static final int button1=0x7f06007a;
         public static final int button2=0x7f0600e6;
@@ -1948,26 +1976,43 @@ So, (94 - 38)/2 ==> 28dp
         public static final int cEmail=0x7f06010a;
         public static final int cImage=0x7f060109;
         public static final int cName=0x7f060108;
+<<<<<<< HEAD
         public static final int callStatusimageView=0x7f060184;
         public static final int call_action_bar=0x7f060156;
+=======
+        public static final int callStatusimageView=0x7f060183;
+        public static final int call_action_bar=0x7f060155;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int call_and_sms=0x7f0600ab;
         public static final int call_and_sms_container=0x7f0600aa;
         public static final int call_and_sms_label=0x7f0600ae;
         public static final int call_and_sms_main_action=0x7f0600ac;
         public static final int call_and_sms_text=0x7f0600ad;
+<<<<<<< HEAD
         public static final int call_card_container=0x7f060154;
+=======
+        public static final int call_card_container=0x7f060153;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int call_choose_account=0x7f0600af;
         public static final int call_count_and_date=0x7f0600bd;
         public static final int call_detail=0x7f0600a2;
         public static final int call_log_divider=0x7f0600bf;
+<<<<<<< HEAD
         public static final int call_secure_bar=0x7f06015c;
         public static final int call_secure_icon=0x7f06015d;
         public static final int call_secure_text=0x7f06015e;
         public static final int call_status_text=0x7f06015b;
+=======
+        public static final int call_secure_bar=0x7f06015b;
+        public static final int call_secure_icon=0x7f06015c;
+        public static final int call_secure_text=0x7f06015d;
+        public static final int call_status_text=0x7f06015a;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int call_type=0x7f0600bb;
         public static final int call_type_icon=0x7f0600b1;
         public static final int call_type_icons=0x7f0600bc;
         public static final int call_type_text=0x7f0600b2;
+<<<<<<< HEAD
         public static final int calllistimageView=0x7f060182;
         public static final int calllistlistView=0x7f0600b5;
         public static final int calllistnametextView=0x7f060183;
@@ -1979,6 +2024,19 @@ So, (94 - 38)/2 ==> 28dp
         public static final int cell1=0x7f060189;
         public static final int cell2=0x7f06018d;
         public static final int cell3=0x7f060191;
+=======
+        public static final int calllistimageView=0x7f060181;
+        public static final int calllistlistView=0x7f0600b5;
+        public static final int calllistnametextView=0x7f060182;
+        public static final int calllisttimetextView=0x7f060184;
+        public static final int cancel=0x7f060195;
+        public static final int cancel_bt=0x7f060096;
+        public static final int cancelpbutton=0x7f060065;
+        public static final int cancelplaybutton=0x7f0601a5;
+        public static final int cell1=0x7f060188;
+        public static final int cell2=0x7f06018c;
+        public static final int cell3=0x7f060190;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int center=0x7f060018;
         public static final int center_horizontal=0x7f060016;
         public static final int center_vertical=0x7f060014;
@@ -1987,7 +2045,11 @@ So, (94 - 38)/2 ==> 28dp
         public static final int chatlist_listview=0x7f060060;
         public static final int chatlistimageView=0x7f06004a;
         public static final int chatlistmessagetextView=0x7f06004f;
+<<<<<<< HEAD
         public static final int chatlistnametextView=0x7f060187;
+=======
+        public static final int chatlistnametextView=0x7f060186;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int chatlisttimetextView=0x7f060050;
         public static final int chatstatus=0x7f0600c3;
         public static final int clip_horizontal=0x7f06001b;
@@ -2000,6 +2062,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int contact_background=0x7f0600a4;
         public static final int contact_listview=0x7f06012b;
         public static final int contact_name=0x7f060123;
+<<<<<<< HEAD
         public static final int contact_name_bar=0x7f060157;
         public static final int contact_name_display_name=0x7f060158;
         public static final int contact_name_sip_address=0x7f060159;
@@ -2009,10 +2072,22 @@ So, (94 - 38)/2 ==> 28dp
         public static final int contactinfo=0x7f060075;
         public static final int contactnametextView=0x7f0601a8;
         public static final int container=0x7f0601c3;
+=======
+        public static final int contact_name_bar=0x7f060156;
+        public static final int contact_name_display_name=0x7f060157;
+        public static final int contact_name_sip_address=0x7f060158;
+        public static final int contact_photo=0x7f060154;
+        public static final int contact_view=0x7f060122;
+        public static final int contactimageView=0x7f0601a9;
+        public static final int contactinfo=0x7f060075;
+        public static final int contactnametextView=0x7f0601a7;
+        public static final int container=0x7f0601c2;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int content_frame=0x7f060073;
         public static final int controls=0x7f0600a3;
         public static final int counter=0x7f0600fb;
         public static final int countryspinner=0x7f06007e;
+<<<<<<< HEAD
         public static final int custom_wizard_row=0x7f0601d5;
         public static final int custom_wizard_text=0x7f0601d6;
         public static final int customcontacttextView=0x7f0600dc;
@@ -2043,6 +2118,38 @@ So, (94 - 38)/2 ==> 28dp
         public static final int dialVideoButton=0x7f0600f1;
         public static final int dialerCallBar=0x7f0600f6;
         public static final int dialpad=0x7f0601d9;
+=======
+        public static final int custom_wizard_row=0x7f0601d4;
+        public static final int custom_wizard_text=0x7f0601d5;
+        public static final int customcontacttextView=0x7f0600dc;
+        public static final int customimageView=0x7f0600da;
+        public static final int customtextView=0x7f0600db;
+        public static final int cw_captcha=0x7f0601c1;
+        public static final int cw_captcha_container=0x7f0601be;
+        public static final int cw_captcha_img=0x7f0601bf;
+        public static final int cw_captcha_progress=0x7f0601c0;
+        public static final int cw_country_code=0x7f0601bd;
+        public static final int cw_email=0x7f0601bb;
+        public static final int cw_first_name=0x7f0601b9;
+        public static final int cw_last_name=0x7f0601ba;
+        public static final int cw_phone=0x7f0601bc;
+        public static final int d_contactname=0x7f060063;
+        public static final int d_contactnumber=0x7f060066;
+        public static final int date=0x7f0600b3;
+        public static final int date_view=0x7f06017e;
+        public static final int declineCallButton=0x7f0601de;
+        public static final int delete=0x7f0601d7;
+        public static final int deleteButton=0x7f0600f4;
+        public static final int delivered_indicator=0x7f060180;
+        public static final int detailedDisplayCallButton=0x7f0601e7;
+        public static final int details=0x7f0601ae;
+        public static final int dialButton=0x7f0600f2;
+        public static final int dialPad=0x7f0600f5;
+        public static final int dialPadContainer=0x7f060160;
+        public static final int dialVideoButton=0x7f0600f1;
+        public static final int dialerCallBar=0x7f0600f6;
+        public static final int dialpad=0x7f0601d8;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int dialtxt_domain_helper=0x7f060107;
         public static final int dialtxt_user=0x7f060105;
         public static final int digitsText=0x7f0600e3;
@@ -2053,6 +2160,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int dontTakeCallButton=0x7f060099;
         public static final int dontTakeCallButtonTxt=0x7f06009a;
         public static final int drawer_layout=0x7f060072;
+<<<<<<< HEAD
         public static final int dropAnswer=0x7f060164;
         public static final int dropHangup=0x7f060163;
         public static final int dropHold=0x7f060165;
@@ -2075,9 +2183,34 @@ So, (94 - 38)/2 ==> 28dp
         public static final int error=0x7f0600d8;
         public static final int error_view=0x7f060180;
         public static final int expert=0x7f0601f1;
+=======
+        public static final int dropAnswer=0x7f060163;
+        public static final int dropHangup=0x7f060162;
+        public static final int dropHold=0x7f060164;
+        public static final int dropXfer=0x7f060165;
+        public static final int dropZones=0x7f060161;
+        public static final int dtmfCallButton=0x7f0601e5;
+        public static final int duration=0x7f0600b4;
+        public static final int durationtextView=0x7f060185;
+        public static final int echo_cancellation=0x7f06016f;
+        public static final int editText1=0x7f060142;
+        public static final int elapsedTime=0x7f060159;
+        public static final int email=0x7f060094;
+        public static final int embedded_text_editor=0x7f0600d2;
+        public static final int emptyListElem=0x7f060129;
+        public static final int end=0x7f06001d;
+        public static final int endButton=0x7f06015f;
+        public static final int end_call_bar=0x7f06015e;
+        public static final int endplaytextView=0x7f0601a2;
+        public static final int endptextView=0x7f0601a1;
+        public static final int entiere_line=0x7f0600c9;
+        public static final int error=0x7f0600d8;
+        public static final int error_view=0x7f06017f;
+        public static final int expert=0x7f0601f0;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int fNametextView=0x7f06006b;
         public static final int facebookfeed=0x7f06012c;
-        public static final int facebookform=0x7f06014b;
+        public static final int facebookform=0x7f06014c;
         public static final int facebooktimetextView=0x7f06010b;
         public static final int faebooktextView=0x7f06010c;
         public static final int fcontactImageView=0x7f06006a;
@@ -2087,7 +2220,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int filter_action=0x7f0600fc;
         public static final int filter_matches=0x7f0600ff;
         public static final int filter_replace=0x7f060102;
-        public static final int firstnameeditText=0x7f060091;
+        public static final int firstName=0x7f060091;
         public static final int footer=0x7f060084;
         public static final int footer1=0x7f060087;
         public static final int footerform=0x7f060056;
@@ -2114,6 +2247,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int header_presence_spinner=0x7f060121;
         public static final int header_text=0x7f0600a8;
         public static final int header_view=0x7f06011e;
+<<<<<<< HEAD
         public static final int heldCallsGrid=0x7f06016a;
         public static final int history=0x7f0600b0;
         public static final int holdCallButton=0x7f0601e3;
@@ -2136,6 +2270,28 @@ So, (94 - 38)/2 ==> 28dp
         public static final int iconContainer1=0x7f06018a;
         public static final int iconContainer2=0x7f06018e;
         public static final int iconContainer3=0x7f060192;
+=======
+        public static final int heldCallsGrid=0x7f060169;
+        public static final int history=0x7f0600b0;
+        public static final int holdCallButton=0x7f0601e2;
+        public static final int homeAsUp=0x7f060006;
+        public static final int homeemptyListElem=0x7f060134;
+        public static final int homefacebookmessagetextView=0x7f06014e;
+        public static final int homefacebookprovidertextView=0x7f06014d;
+        public static final int homefacebooktimetextView=0x7f06014f;
+        public static final int homefeedlistView=0x7f060133;
+        public static final int homeinstagramimageView=0x7f06005a;
+        public static final int homeinstagramprovidertextView=0x7f060151;
+        public static final int homeinstagramtimetextView=0x7f060152;
+        public static final int hybrid=0x7f060023;
+        public static final int icon=0x7f0600ca;
+        public static final int icon1=0x7f06018a;
+        public static final int icon2=0x7f06018e;
+        public static final int icon3=0x7f060192;
+        public static final int iconContainer1=0x7f060189;
+        public static final int iconContainer2=0x7f06018d;
+        public static final int iconContainer3=0x7f060191;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int imageView2=0x7f06004c;
         public static final int imageView3=0x7f06004e;
         public static final int imageView4=0x7f06004d;
@@ -2145,6 +2301,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int imageView8=0x7f06005f;
         public static final int imap=0x7f060071;
         public static final int imgLogo=0x7f06008e;
+<<<<<<< HEAD
         public static final int img_account=0x7f0601cd;
         public static final int inCallAnswerControls=0x7f06016b;
         public static final int inCallContainer=0x7f060168;
@@ -2166,20 +2323,54 @@ So, (94 - 38)/2 ==> 28dp
         public static final int item_status_text=0x7f060126;
         public static final int label=0x7f06019f;
         public static final int lastnameeditText=0x7f060092;
+=======
+        public static final int img_account=0x7f0601cc;
+        public static final int inCallAnswerControls=0x7f06016a;
+        public static final int inCallContainer=0x7f060167;
+        public static final int inCallControls=0x7f06016b;
+        public static final int ind_account=0x7f0601cf;
+        public static final int indicator=0x7f060042;
+        public static final int inputSearch=0x7f06012a;
+        public static final int instagramcEmail=0x7f060176;
+        public static final int instagramcImage=0x7f060175;
+        public static final int instagramcName=0x7f060174;
+        public static final int instagramcontactList=0x7f060136;
+        public static final int instagramfeed=0x7f060137;
+        public static final int instagramform=0x7f060150;
+        public static final int instagramfromtextView=0x7f060171;
+        public static final int instagramimageView=0x7f060172;
+        public static final int instagramtimetextView=0x7f060173;
+        public static final int invert_selection=0x7f0601d9;
+        public static final int item_status_icon=0x7f060125;
+        public static final int item_status_text=0x7f060126;
+        public static final int label=0x7f06019e;
+        public static final int lastName=0x7f060092;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int left=0x7f060012;
         public static final int left_drawer=0x7f060074;
         public static final int line1=0x7f0600cb;
         public static final int linearLayout1=0x7f06007d;
         public static final int linearLayout2=0x7f060093;
+<<<<<<< HEAD
         public static final int linkedincEmail=0x7f06017a;
         public static final int linkedincImage=0x7f060179;
         public static final int linkedincName=0x7f060178;
+=======
+        public static final int linkedincEmail=0x7f060179;
+        public static final int linkedincImage=0x7f060178;
+        public static final int linkedincName=0x7f060177;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int linkedincommenteditText=0x7f06013a;
         public static final int linkedincontactList=0x7f06013e;
         public static final int linkedinfeed=0x7f06013d;
         public static final int linkedinshareimageView=0x7f06013c;
+<<<<<<< HEAD
         public static final int linkedintextView=0x7f06017c;
         public static final int linkedintimetextView=0x7f06017b;
+=======
+        public static final int linkedintextView=0x7f06017b;
+        public static final int linkedintimetextView=0x7f06017a;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int linkedinuserimageView=0x7f060139;
         public static final int linkedinwordcounter=0x7f06013b;
         public static final int list=0x7f06003d;
@@ -2189,15 +2380,22 @@ So, (94 - 38)/2 ==> 28dp
         public static final int listform=0x7f060053;
         public static final int listform2=0x7f060079;
         public static final int loading_indicator=0x7f06010e;
+<<<<<<< HEAD
         public static final int lockerOverlay=0x7f06016d;
         public static final int logoimageView=0x7f06007c;
         public static final int mainFrame=0x7f060167;
+=======
+        public static final int lockerOverlay=0x7f06016c;
+        public static final int logoimageView=0x7f06007c;
+        public static final int mainFrame=0x7f060166;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int main_action=0x7f0600a7;
         public static final int main_action_push_layer=0x7f0600a9;
         public static final int map=0x7f06006d;
         public static final int matcher_block=0x7f0600fd;
         public static final int matcher_type=0x7f0600fe;
         public static final int me=0x7f060047;
+<<<<<<< HEAD
         public static final int mediaSettingsButton=0x7f0601ed;
         public static final int menu_accbtn_accounts=0x7f06001e;
         public static final int menu_accbtn_extras=0x7f06001f;
@@ -2205,18 +2403,36 @@ So, (94 - 38)/2 ==> 28dp
         public static final int micro_level=0x7f06016f;
         public static final int muteButton=0x7f0601ea;
         public static final int mycalllist_listview=0x7f060142;
+=======
+        public static final int mediaSettingsButton=0x7f0601ec;
+        public static final int menu_accbtn_accounts=0x7f06001e;
+        public static final int menu_accbtn_extras=0x7f06001f;
+        public static final int message_block=0x7f06017c;
+        public static final int micro_level=0x7f06016e;
+        public static final int muteButton=0x7f0601e9;
+        public static final int mycalllist_listview=0x7f060143;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int mychatlist_listview=0x7f060128;
         public static final int mymap=0x7f06006c;
-        public static final int myprofileimageView=0x7f060090;
+        public static final int myprofileImage=0x7f060090;
         public static final int myusebutton=0x7f06006e;
         public static final int name=0x7f0600b9;
+<<<<<<< HEAD
         public static final int name_and_label=0x7f06019e;
+=======
+        public static final int name_and_label=0x7f06019d;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int nametextView=0x7f060141;
         public static final int none=0x7f060020;
         public static final int normal=0x7f060001;
         public static final int number=0x7f0600ba;
+<<<<<<< HEAD
         public static final int ok=0x7f060197;
         public static final int ok_bar=0x7f060171;
+=======
+        public static final int ok=0x7f060196;
+        public static final int ok_bar=0x7f060170;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int output=0x7f060089;
         public static final int output1=0x7f06004b;
         public static final int outputtxt=0x7f06007b;
@@ -2225,7 +2441,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int pagerfacebook=0x7f060132;
         public static final int pagerinstagram=0x7f060138;
         public static final int pagerlinkedin=0x7f06013f;
-        public static final int pagertwitter=0x7f060148;
+        public static final int pagertwitter=0x7f060149;
         public static final int personeditText1=0x7f060083;
         public static final int personimageView1=0x7f060082;
         public static final int phoneNumbertextView=0x7f060077;
@@ -2233,6 +2449,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int photo_text_bar=0x7f0600a6;
         public static final int picturewrapper=0x7f0600c4;
         public static final int playnotebutton=0x7f060070;
+<<<<<<< HEAD
         public static final int playprogressBar=0x7f0601a4;
         public static final int playstarttimetextView=0x7f0601a5;
         public static final int primary_action_view=0x7f0600b6;
@@ -2241,16 +2458,34 @@ So, (94 - 38)/2 ==> 28dp
         public static final int progressContainer=0x7f06014a;
         public static final int provider=0x7f06019b;
         public static final int providerText=0x7f06019c;
+=======
+        public static final int playprogressBar=0x7f0601a3;
+        public static final int playstarttimetextView=0x7f0601a4;
+        public static final int primary_action_view=0x7f0600b6;
+        public static final int profilepiximageView=0x7f060140;
+        public static final int progressBar=0x7f0601a0;
+        public static final int progressContainer=0x7f06014b;
+        public static final int provider=0x7f06019a;
+        public static final int providerText=0x7f06019b;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int quick_contact_photo=0x7f0600b7;
         public static final int quickaction_icon=0x7f06003b;
         public static final int quickaction_text=0x7f06003c;
         public static final int recipients_subject_linear=0x7f0600cd;
+<<<<<<< HEAD
         public static final int recordCallButton=0x7f0601e4;
         public static final int recordpbutton=0x7f060049;
         public static final int recordtimetextView=0x7f0600c7;
         public static final int replace_block=0x7f060100;
         public static final int replace_type=0x7f060101;
         public static final int reset_settings=0x7f0601f2;
+=======
+        public static final int recordCallButton=0x7f0601e3;
+        public static final int recordtimetextView=0x7f0600c7;
+        public static final int replace_block=0x7f060100;
+        public static final int replace_type=0x7f060101;
+        public static final int reset_settings=0x7f0601f1;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int rewriteTextInfo=0x7f0600e4;
         public static final int right=0x7f060013;
         public static final int row_glob_integrate=0x7f06010f;
@@ -2262,6 +2497,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int rx_icon=0x7f0600a0;
         public static final int satellite=0x7f060021;
         public static final int save_bt=0x7f060103;
+<<<<<<< HEAD
         public static final int scheckBox=0x7f0601ad;
         public static final int secondary_action_icon=0x7f0600b8;
         public static final int selectContact=0x7f060080;
@@ -2272,11 +2508,24 @@ So, (94 - 38)/2 ==> 28dp
         public static final int set_sip_data=0x7f0601dd;
         public static final int settings_container=0x7f0601d4;
         public static final int share_presence=0x7f0601de;
+=======
+        public static final int scheckBox=0x7f0601ac;
+        public static final int secondary_action_icon=0x7f0600b8;
+        public static final int selectContact=0x7f060080;
+        public static final int selectcheckBox=0x7f0601a8;
+        public static final int selectcontact_listview=0x7f060081;
+        public static final int send_button=0x7f0600d4;
+        public static final int set_group=0x7f0601db;
+        public static final int set_sip_data=0x7f0601dc;
+        public static final int settings_container=0x7f0601d3;
+        public static final int share_presence=0x7f0601dd;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int shareallimageView=0x7f060086;
         public static final int shareimageView=0x7f060131;
         public static final int showCustom=0x7f060008;
         public static final int showHome=0x7f060005;
         public static final int showTitle=0x7f060007;
+<<<<<<< HEAD
         public static final int signstatus=0x7f06019d;
         public static final int simageView=0x7f0601ae;
         public static final int sip_uri=0x7f060195;
@@ -2298,30 +2547,66 @@ So, (94 - 38)/2 ==> 28dp
         public static final int speaker_level=0x7f06016e;
         public static final int start=0x7f06001c;
         public static final int startptextView=0x7f0601a0;
+=======
+        public static final int signstatus=0x7f06019c;
+        public static final int simageView=0x7f0601ad;
+        public static final int sip_uri=0x7f060194;
+        public static final int sipstatustext=0x7f06008f;
+        public static final int smsDeliveredtextView=0x7f0601b1;
+        public static final int smsDeliveredtextViewss=0x7f0601b4;
+        public static final int smsdatetimetextView=0x7f0601b2;
+        public static final int smsdatetimetextViewss=0x7f0601b5;
+        public static final int smseditText=0x7f06008d;
+        public static final int smsform=0x7f06008a;
+        public static final int smslistView=0x7f06008b;
+        public static final int smsmsgtextView=0x7f0601b0;
+        public static final int smsmsgtextViewss=0x7f0601b3;
+        public static final int snametextView=0x7f0601ab;
+        public static final int snetworktextView=0x7f0601aa;
+        public static final int snippet=0x7f0600e0;
+        public static final int socialnetworkslistView=0x7f060048;
+        public static final int speakerButton=0x7f0601e8;
+        public static final int speaker_level=0x7f06016d;
+        public static final int start=0x7f06001c;
+        public static final int startptextView=0x7f06019f;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int status_icon=0x7f0600f7;
         public static final int status_progress=0x7f0600fa;
         public static final int status_progress_wrapper=0x7f0600f9;
         public static final int status_text=0x7f0600f8;
+<<<<<<< HEAD
         public static final int strut=0x7f0601a7;
+=======
+        public static final int strut=0x7f0601a6;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int subject=0x7f0600ce;
         public static final int subjectLabel=0x7f0600d0;
         public static final int swordcounter=0x7f060085;
         public static final int tabMode=0x7f060003;
         public static final int takeCallButton=0x7f06009b;
         public static final int takeCallButtonTxt=0x7f06009c;
+<<<<<<< HEAD
         public static final int terminateCallButton=0x7f0601e0;
+=======
+        public static final int terminateCallButton=0x7f0601df;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int terrain=0x7f060022;
-        public static final int text=0x7f060149;
+        public static final int text=0x7f06014a;
         public static final int textView1=0x7f060076;
         public static final int textView2=0x7f060078;
         public static final int textView4=0x7f060052;
         public static final int text_counter=0x7f0600d5;
+<<<<<<< HEAD
         public static final int text_view=0x7f06017e;
+=======
+        public static final int text_view=0x7f06017d;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int title=0x7f0600df;
         public static final int top=0x7f060010;
         public static final int topField=0x7f0600e2;
         public static final int topFieldText=0x7f060104;
         public static final int top_digit_dialer=0x7f0600e1;
+<<<<<<< HEAD
         public static final int transferCallButton=0x7f0601e2;
         public static final int tweettextView=0x7f0601b7;
         public static final int tweettimetextView=0x7f0601b8;
@@ -2334,11 +2619,26 @@ So, (94 - 38)/2 ==> 28dp
         public static final int tx_icon=0x7f06009e;
         public static final int txt_account=0x7f0601ce;
         public static final int txt_status=0x7f0601cf;
+=======
+        public static final int transferCallButton=0x7f0601e1;
+        public static final int tweettextView=0x7f0601b6;
+        public static final int tweettimetextView=0x7f0601b7;
+        public static final int twittercommenteditText=0x7f060146;
+        public static final int twitterfeeds=0x7f060144;
+        public static final int twittershareimageView=0x7f060148;
+        public static final int twitteruserimageView=0x7f060145;
+        public static final int twitterwordcounter=0x7f060147;
+        public static final int tx_bar=0x7f06009f;
+        public static final int tx_icon=0x7f06009e;
+        public static final int txt_account=0x7f0601cd;
+        public static final int txt_status=0x7f0601ce;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int updatebutton=0x7f060067;
         public static final int useLogo=0x7f060004;
         public static final int uselocationbutton=0x7f06006f;
         public static final int userimageView=0x7f06012e;
         public static final int usevoicenotebutton=0x7f060068;
+<<<<<<< HEAD
         public static final int validation_bar=0x7f0601b9;
         public static final int videoCallButton=0x7f0601e7;
         public static final int videoframe=0x7f060198;
@@ -2360,16 +2660,47 @@ So, (94 - 38)/2 ==> 28dp
         public static final int webview=0x7f06010d;
         public static final int webview_container=0x7f0601d2;
         public static final int webview_progress=0x7f0601d3;
+=======
+        public static final int validation_bar=0x7f0601b8;
+        public static final int videoCallButton=0x7f0601e6;
+        public static final int videoframe=0x7f060197;
+        public static final int videowrapper=0x7f0600c8;
+        public static final int vmfield=0x7f060098;
+        public static final int vmfield_view=0x7f060097;
+        public static final int voicenotecancelbutton=0x7f060199;
+        public static final int voicenoteimageView=0x7f06005d;
+        public static final int voicenoteplaybutton=0x7f060198;
+        public static final int voicenotewrapper=0x7f0600c6;
+        public static final int warn_desc=0x7f0601c4;
+        public static final int warn_desc2=0x7f0601c7;
+        public static final int warn_ignore=0x7f0601c5;
+        public static final int warn_priv_int_register=0x7f0601c8;
+        public static final int warn_stun_on=0x7f0601c6;
+        public static final int warn_title=0x7f0601c3;
+        public static final int warn_vpn_ics_1=0x7f0601c9;
+        public static final int warn_vpn_ics_5=0x7f0601ca;
+        public static final int webview=0x7f06010d;
+        public static final int webview_container=0x7f0601d1;
+        public static final int webview_progress=0x7f0601d2;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int wizard_icon=0x7f06003f;
         public static final int wordcounter=0x7f060130;
         public static final int wordcounttextView=0x7f06008c;
         public static final int wrap_content=0x7f060000;
         public static final int wrapper=0x7f0600c0;
+<<<<<<< HEAD
         public static final int wrapperr=0x7f0601b0;
         public static final int wrapperrr=0x7f0600c2;
         public static final int xchatlistView=0x7f060061;
         public static final int xferCallButton=0x7f0601e1;
         public static final int zrtpAcceptance=0x7f0601e5;
+=======
+        public static final int wrapperr=0x7f0601af;
+        public static final int wrapperrr=0x7f0600c2;
+        public static final int xchatlistView=0x7f060061;
+        public static final int xferCallButton=0x7f0601e0;
+        public static final int zrtpAcceptance=0x7f0601e4;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
     }
     public static final class integer {
         public static final int abs__max_action_buttons=0x7f0a0000;
@@ -2410,6 +2741,7 @@ So, (94 - 38)/2 ==> 28dp
         public static final int accounts_edit_list=0x7f030019;
         public static final int accounts_edit_list_item=0x7f03001a;
         public static final int accounts_view=0x7f03001b;
+<<<<<<< HEAD
         public static final int activity_add_social=0x7f03001c;
         public static final int activity_add_social_networks=0x7f03001d;
         public static final int activity_call=0x7f03001e;
@@ -2442,6 +2774,40 @@ So, (94 - 38)/2 ==> 28dp
         public static final int alert_dialog_text_entry=0x7f030039;
         public static final int alternate_unlocker=0x7f03003a;
         public static final int audio_test_view=0x7f03003b;
+=======
+        public static final int activity_add_social_networks=0x7f03001c;
+        public static final int activity_call=0x7f03001d;
+        public static final int activity_chat=0x7f03001e;
+        public static final int activity_chat_list=0x7f03001f;
+        public static final int activity_chats=0x7f030020;
+        public static final int activity_contact_details=0x7f030021;
+        public static final int activity_facebook_friend_detail=0x7f030022;
+        public static final int activity_invite_to_fuse=0x7f030023;
+        public static final int activity_location=0x7f030024;
+        public static final int activity_location_another=0x7f030025;
+        public static final int activity_main=0x7f030026;
+        public static final int activity_my_chat=0x7f030027;
+        public static final int activity_my_location=0x7f030028;
+        public static final int activity_my_main=0x7f030029;
+        public static final int activity_not_member=0x7f03002a;
+        public static final int activity_receiver_call=0x7f03002b;
+        public static final int activity_register_phone_number=0x7f03002c;
+        public static final int activity_select_contacts=0x7f03002d;
+        public static final int activity_share=0x7f03002e;
+        public static final int activity_sip_call=0x7f03002f;
+        public static final int activity_sip_chat=0x7f030030;
+        public static final int activity_sms=0x7f030031;
+        public static final int activity_social_networks=0x7f030032;
+        public static final int activity_splash=0x7f030033;
+        public static final int activity_tiny_sip_demo=0x7f030034;
+        public static final int activity_update_profile=0x7f030035;
+        public static final int activity_verify_pin=0x7f030036;
+        public static final int add_account_wizard=0x7f030037;
+        public static final int alert_dialog_text_entry=0x7f030038;
+        public static final int alternate_unlocker=0x7f030039;
+        public static final int audio_test_view=0x7f03003a;
+        public static final int bkp_fragment_=0x7f03003b;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int call_detail=0x7f03003c;
         public static final int call_detail_history_item=0x7f03003d;
         public static final int call_list=0x7f03003e;
@@ -2459,12 +2825,17 @@ So, (94 - 38)/2 ==> 28dp
         public static final int dialer_digit=0x7f03004a;
         public static final int dialpad=0x7f03004b;
         public static final int dialpad_additional_buttons=0x7f03004c;
+<<<<<<< HEAD
         public static final int dialpad_compose=0x7f0300ab;
+=======
+        public static final int dialpad_compose=0x7f0300af;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         public static final int dialpad_compose_3x5=0x7f03004d;
         public static final int dialpad_compose_4x4=0x7f03004e;
         public static final int download_notif=0x7f03004f;
         public static final int drawer_list_item=0x7f030050;
         public static final int edit_filter=0x7f030051;
+<<<<<<< HEAD
         public static final int edit_sip_uri=0x7f030052;
         public static final int facebook_contact_list=0x7f030053;
         public static final int facebookcustomlist=0x7f030054;
@@ -2556,6 +2927,103 @@ So, (94 - 38)/2 ==> 28dp
         public static final int wizard_create_or_edit=0x7f0300a7;
         public static final int wizard_prefs_base=0x7f0300a8;
         public static final int wizard_row=0x7f0300a9;
+=======
+        public static final int edit_profile=0x7f030052;
+        public static final int edit_sip_uri=0x7f030053;
+        public static final int facebook_contact_list=0x7f030054;
+        public static final int facebookcustomlist=0x7f030055;
+        public static final int faq=0x7f030056;
+        public static final int fast_settings=0x7f030057;
+        public static final int fav_list_item=0x7f030058;
+        public static final int fav_presence_item=0x7f030059;
+        public static final int filters_list_item=0x7f03005a;
+        public static final int fragment_=0x7f03005b;
+        public static final int fragment_edit_profile=0x7f03005c;
+        public static final int fragment_fragment_chat_list=0x7f03005d;
+        public static final int fragment_fragment_contacts=0x7f03005e;
+        public static final int fragment_fragment_facebook=0x7f03005f;
+        public static final int fragment_fragment_facebook_friends=0x7f030060;
+        public static final int fragment_fragment_facebook_share=0x7f030061;
+        public static final int fragment_fragment_facebook_swipe=0x7f030062;
+        public static final int fragment_fragment_home=0x7f030063;
+        public static final int fragment_fragment_home_swipe=0x7f030064;
+        public static final int fragment_fragment_instagram_followers=0x7f030065;
+        public static final int fragment_fragment_instagram_home=0x7f030066;
+        public static final int fragment_fragment_instagram_share=0x7f030067;
+        public static final int fragment_fragment_instagram_swipe=0x7f030068;
+        public static final int fragment_fragment_klinked_in_share=0x7f030069;
+        public static final int fragment_fragment_linked_in=0x7f03006a;
+        public static final int fragment_fragment_linked_in_connect=0x7f03006b;
+        public static final int fragment_fragment_linked_in_swipe=0x7f03006c;
+        public static final int fragment_fragment_profile=0x7f03006d;
+        public static final int fragment_fragment_sip_call_list=0x7f03006e;
+        public static final int fragment_fragment_sip_chat_list=0x7f03006f;
+        public static final int fragment_fragment_twitter=0x7f030070;
+        public static final int fragment_fragment_twitter_followers=0x7f030071;
+        public static final int fragment_fragment_twitter_following=0x7f030072;
+        public static final int fragment_fragment_twitter_share=0x7f030073;
+        public static final int fragment_fragment_twitter_swipe=0x7f030074;
+        public static final int fragment_my_fragment_profile=0x7f030075;
+        public static final int generic_add_header_list=0x7f030076;
+        public static final int generic_list_progress_view=0x7f030077;
+        public static final int help=0x7f030078;
+        public static final int help_list_row=0x7f030079;
+        public static final int homecustomlist=0x7f03007a;
+        public static final int icon_preference_screen=0x7f03007b;
+        public static final int in_call_card=0x7f03007c;
+        public static final int in_call_dialpad=0x7f03007d;
+        public static final int in_call_drop_zones=0x7f03007e;
+        public static final int in_call_main=0x7f03007f;
+        public static final int in_call_media=0x7f030080;
+        public static final int instagramcustomlist=0x7f030081;
+        public static final int instagran_contact_list=0x7f030082;
+        public static final int invalid_preference_row=0x7f030083;
+        public static final int legal_information=0x7f030084;
+        public static final int linkedin_contact_list=0x7f030085;
+        public static final int linkedincustomlist=0x7f030086;
+        public static final int message_list_fragment=0x7f030087;
+        public static final int message_list_item=0x7f030088;
+        public static final int mycalllist=0x7f030089;
+        public static final int mychatlist=0x7f03008a;
+        public static final int notification_registration_layout=0x7f03008b;
+        public static final int outgoing_account_list_item=0x7f03008c;
+        public static final int outgoing_call_view=0x7f03008d;
+        public static final int pickup_uri=0x7f03008e;
+        public static final int play_stored_voicenote=0x7f03008f;
+        public static final int providers_list=0x7f030090;
+        public static final int recipient_filter_item=0x7f030091;
+        public static final int record_layout=0x7f030092;
+        public static final int record_play_layout=0x7f030093;
+        public static final int search_contact_list_item=0x7f030094;
+        public static final int select_custom_contact=0x7f030095;
+        public static final int share_comment_list=0x7f030096;
+        public static final int sherlock_spinner_dropdown_item=0x7f030097;
+        public static final int sherlock_spinner_item=0x7f030098;
+        /**  Sip home constants 
+         */
+        public static final int sip_home=0x7f0300ae;
+        public static final int sip_home_dual_pane=0x7f030099;
+        public static final int sip_home_one_pane=0x7f03009a;
+        public static final int smiley_layout=0x7f03009b;
+        public static final int smscustomlist=0x7f03009c;
+        public static final int social_network_layout=0x7f03009d;
+        public static final int test=0x7f03009e;
+        public static final int themed_tab=0x7f03009f;
+        public static final int twittercustomlist=0x7f0300a0;
+        public static final int valid_preference_row=0x7f0300a1;
+        public static final int w_mondotalk_create=0x7f0300a2;
+        public static final int warning_container=0x7f0300a3;
+        public static final int warning_no_stun=0x7f0300a4;
+        public static final int warning_privileged_intent=0x7f0300a5;
+        public static final int warning_sdcard=0x7f0300a6;
+        public static final int warning_vpn_ics=0x7f0300a7;
+        public static final int widget=0x7f0300a8;
+        public static final int widget_shortcut=0x7f0300a9;
+        public static final int wizard_account_creation_webview=0x7f0300aa;
+        public static final int wizard_create_or_edit=0x7f0300ab;
+        public static final int wizard_prefs_base=0x7f0300ac;
+        public static final int wizard_row=0x7f0300ad;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
     }
     public static final class menu {
         public static final int add_social=0x7f0e0000;
@@ -2592,14 +3060,14 @@ So, (94 - 38)/2 ==> 28dp
         public static final int verify_pin=0x7f0e001f;
     }
     public static final class string {
-        public static final int SIPCallConnected=0x7f0b0315;
-        public static final int SIPInvite=0x7f0b0317;
-        public static final int SIPReady=0x7f0b0316;
-        public static final int SIPRegistering=0x7f0b0314;
-        public static final int SIPRegistrationError=0x7f0b0312;
-        public static final int SIPUnregistering=0x7f0b0313;
-        public static final int STUNDiscovery=0x7f0b0318;
-        public static final int STUNNotSupported=0x7f0b0319;
+        public static final int SIPCallConnected=0x7f0b0314;
+        public static final int SIPInvite=0x7f0b0316;
+        public static final int SIPReady=0x7f0b0315;
+        public static final int SIPRegistering=0x7f0b0313;
+        public static final int SIPRegistrationError=0x7f0b0311;
+        public static final int SIPUnregistering=0x7f0b0312;
+        public static final int STUNDiscovery=0x7f0b0317;
+        public static final int STUNNotSupported=0x7f0b0318;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abs__action_bar_home_description=0x7f0b0000;
@@ -2639,8 +3107,8 @@ So, (94 - 38)/2 ==> 28dp
         public static final int acct_registered=0x7f0b000e;
         public static final int acct_registering=0x7f0b000d;
         public static final int acct_unregistered=0x7f0b000b;
-        public static final int action_settings=0x7f0b02fb;
-        public static final int action_websearch=0x7f0b0303;
+        public static final int action_settings=0x7f0b02fa;
+        public static final int action_websearch=0x7f0b0302;
         public static final int activate=0x7f0b0231;
         public static final int activate_account=0x7f0b01f2;
         public static final int activate_presence_sharing=0x7f0b023e;
@@ -2742,7 +3210,7 @@ Name to use when we have an unspecified sender
          */
         public static final int anonymous_recipient=0x7f0b006b;
         public static final int another_application_use_sip_port=0x7f0b0221;
-        public static final int app_id=0x7f0b030e;
+        public static final int app_id=0x7f0b030d;
         /**  The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. 
 The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc.
  The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. 
@@ -2763,7 +3231,7 @@ The name of the SMS/MMS app as it appears to the user in the Home screen, task s
          */
         public static final int app_label=0x7f0b0063;
         public static final int app_name=0x7f0b0011;
-        public static final int app_not_available=0x7f0b0304;
+        public static final int app_not_available=0x7f0b0303;
         public static final int apply_rewrite=0x7f0b0239;
         /**  Dialog message text asking the user if he wants to resize the picture being attached 
 Dialog message text asking the user if he wants to resize the picture being attached
@@ -3271,7 +3739,7 @@ Menu item for deleting the entire conversation currently being viewed
         public static final int delete_thread=0x7f0b0071;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f0b030f;
+        public static final int desc_list_item_icon=0x7f0b030e;
         /** 
       String describing the button to call a number or contact.
 
@@ -4970,8 +5438,8 @@ Message displayed in place of the "download message" button once it has been pre
          */
         public static final int downloading=0x7f0b0073;
         public static final int downloading_text=0x7f0b025b;
-        public static final int drawer_close=0x7f0b030d;
-        public static final int drawer_open=0x7f0b030c;
+        public static final int drawer_close=0x7f0b030c;
+        public static final int drawer_open=0x7f0b030b;
         public static final int dscp_val=0x7f0b00e7;
         public static final int dscp_val_desc=0x7f0b00e8;
         public static final int dtmf_pause_time=0x7f0b0145;
@@ -5162,8 +5630,8 @@ UI
         public static final int has_io_queue=0x7f0b0157;
         public static final int has_io_queue_desc=0x7f0b0158;
         public static final int has_more_than_n_digits=0x7f0b0030;
-        public static final int hello_blank_fragment=0x7f0b0302;
-        public static final int hello_world=0x7f0b02fc;
+        public static final int hello_blank_fragment=0x7f0b0301;
+        public static final int hello_world=0x7f0b02fb;
         public static final int help=0x7f0b0214;
         /**  Sender to be used if the sender address has been hidden 
 Sender to be used if the sender address has been hidden
@@ -5273,9 +5741,6 @@ Generic
         public static final int legacy=0x7f0b0172;
         public static final int legal_information=0x7f0b0229;
         public static final int loading=0x7f0b022b;
-        /**  Location client code resources (prefix with location_client) 
-         */
-        public static final int location_client_powered_by_google=0x7f0b02fa;
         public static final int lock_wifi=0x7f0b00ba;
         public static final int lock_wifi_desc=0x7f0b00bb;
         public static final int lock_wifi_perfs=0x7f0b00bc;
@@ -6004,6 +6469,7 @@ Status in "Report" window
         public static final int timer_min_se_desc=0x7f0b00f9;
         public static final int timer_sess_expires=0x7f0b00fa;
         public static final int timer_sess_expires_desc=0x7f0b00fb;
+<<<<<<< HEAD
         public static final int title_activity_add_social=0x7f0b0326;
         public static final int title_activity_add_social_networks=0x7f0b031a;
         public static final int title_activity_call=0x7f0b030b;
@@ -6031,6 +6497,34 @@ Status in "Report" window
         public static final int title_activity_tiny_sip_demo=0x7f0b0311;
         public static final int title_activity_update_profile=0x7f0b0300;
         public static final int title_activity_verify_pin=0x7f0b02ff;
+=======
+        public static final int title_activity_add_social_networks=0x7f0b0319;
+        public static final int title_activity_call=0x7f0b030a;
+        public static final int title_activity_chat=0x7f0b0306;
+        public static final int title_activity_chat_list=0x7f0b031b;
+        public static final int title_activity_contact_details=0x7f0b0304;
+        public static final int title_activity_facebook_friend_detail=0x7f0b031d;
+        public static final int title_activity_invite_to_fuse=0x7f0b031c;
+        public static final int title_activity_location=0x7f0b0320;
+        public static final int title_activity_location_another=0x7f0b0322;
+        public static final int title_activity_main=0x7f0b02fd;
+        public static final int title_activity_my_chat=0x7f0b0307;
+        public static final int title_activity_my_location=0x7f0b031f;
+        public static final int title_activity_my_main=0x7f0b0300;
+        public static final int title_activity_not_member=0x7f0b0323;
+        public static final int title_activity_receiver_call=0x7f0b030f;
+        public static final int title_activity_register_phone_number=0x7f0b02fc;
+        public static final int title_activity_select_contacts=0x7f0b0308;
+        public static final int title_activity_share=0x7f0b031e;
+        public static final int title_activity_sip_call=0x7f0b0309;
+        public static final int title_activity_sip_chat=0x7f0b0324;
+        public static final int title_activity_sms=0x7f0b0321;
+        public static final int title_activity_social_networks=0x7f0b031a;
+        public static final int title_activity_splash=0x7f0b0305;
+        public static final int title_activity_tiny_sip_demo=0x7f0b0310;
+        public static final int title_activity_update_profile=0x7f0b02ff;
+        public static final int title_activity_verify_pin=0x7f0b02fe;
+>>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
         /**  Security 
 <string name="ka_use_wake">Keep alive awake</string>
     <string name="ka_use_wake_desc">If activated keep alive will awake phone</string>

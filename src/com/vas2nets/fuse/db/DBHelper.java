@@ -89,6 +89,13 @@ public class DBHelper extends SQLiteOpenHelper {
 		 
 	}
 	
+	public Cursor getUser(String sipId){
+		String selectQuery = "SELECT firstname,lastname,email,photo FROM usertable WHERE " + DBHelper.USER_KEY_SIPID + " = '" + sipId + "' ";
+		SQLiteDatabase db = this.getWritableDatabase();
+		Cursor cursor = db.rawQuery(selectQuery, null);
+		return cursor;
+	}
+	
 	public Cursor getChatMessage(String sender, String receiver){
 		String selectQuery = "SELECT * FROM CHATMESSAGE WHERE " + DBHelper.CHAT_KEY_SENDER + " = " + sender + " AND " + DBHelper.CHAT_KEY_RECEIVER + " = " + receiver;
 		SQLiteDatabase db = this.getWritableDatabase();

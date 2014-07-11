@@ -60,7 +60,7 @@
      </LinearLayout>
      
     <Button
-        android:id="@+id/recordpbutton"
+        android:id="@+id/btn_save"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/linearLayout1"
@@ -75,8 +75,8 @@
         android:id="@+id/output1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/recordpbutton"
-        android:layout_below="@+id/recordpbutton"
+        android:layout_alignLeft="@+id/btn_save"
+        android:layout_below="@+id/btn_save"
         android:layout_marginTop="24dp"
         android:text="We will send you a 4-digit code to verify your phone number in less than two(2) mins" />
 
