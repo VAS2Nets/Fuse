@@ -137,7 +137,7 @@ public class UpdateProfileActivity extends Activity {
 		 */
 
 		dbHelper = new ContactDBHelper(getApplicationContext());
-		getPhoneNumbers(); // get all contacts phone numbers
+		//getPhoneNumbers(); // get all contacts phone numbers
 
 	}
 
@@ -363,7 +363,7 @@ public class UpdateProfileActivity extends Activity {
 					status = c.getString("Status");
 					allPhones = c.getString("AllPhones");
 				}
-<<<<<<< HEAD
+
 				
 				storeNumbersInSqlite(allPhones); // stores all contacts phone numbers in sqlite for persistence
 				
@@ -371,7 +371,7 @@ public class UpdateProfileActivity extends Activity {
 					//Toast.makeText(UpdateProfileActivity.this, "At the point of change!!!", Toast.LENGTH_LONG).show();	
 					//Intent i = new Intent(UpdateProfileActivity.this, AddSocialNetworksActivity.class);
 					Intent i = new Intent(UpdateProfileActivity.this, AddSocialActivity.class);
-=======
+
 
 				storeNumbersInSqlite(allPhones); // stores all contacts phone
 													// numbers in sqlite for
@@ -397,9 +397,11 @@ public class UpdateProfileActivity extends Activity {
 					editor.commit(); // commit changes;;
 
 					editor.commit(); // commit changes
+					/*
 					Intent i = new Intent(UpdateProfileActivity.this,
 							AddSocialNetworksActivity.class);
->>>>>>> d86f914a2948289c324e59579d7f1ab7eec065ca
+							*/
+
 					finish();
 					startActivity(i);
 
@@ -409,7 +411,7 @@ public class UpdateProfileActivity extends Activity {
 							Toast.LENGTH_LONG).show();
 				}
 
-			} catch (Exception e) {
+			} }catch (Exception e) {
 
 			}
 		}
