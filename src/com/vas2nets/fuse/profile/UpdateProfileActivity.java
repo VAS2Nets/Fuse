@@ -1,4 +1,59 @@
+
 package com.vas2nets.fuse.profile;
+// nine
+import java.io.ByteArrayOutputStream;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.regex.Pattern;
+
+import org.apache.http.NameValuePair;
+import org.apache.http.message.BasicNameValuePair;
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import android.annotation.SuppressLint;
+import android.annotation.TargetApi;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.content.ContentResolver;
+import android.content.ContentValues;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.content.SharedPreferences.Editor;
+import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
+import android.os.AsyncTask;
+import android.os.Build;
+import android.os.Bundle;
+import android.provider.ContactsContract;
+import android.provider.MediaStore.Images.ImageColumns;
+import android.util.Base64;
+import android.util.Log;
+import android.view.Menu;
+import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.google.android.gms.common.ConnectionResult;
+import com.google.android.gms.common.GooglePlayServicesUtil;
+import com.google.android.gms.gcm.GoogleCloudMessaging;
+import com.vas2nets.fuse.MainActivity;
+import com.vas2nets.fuse.R;
+import com.vas2nets.fuse.contact.FuseContactContentProvider;
+import com.vas2nets.fuse.db.ContactDBHelper;
+import com.vas2nets.fuse.db.DBHelper;
+import com.vas2nets.fuse.image.PhotoUtility;
+import com.vas2nets.fuse.json.JSONParser;
+import com.vas2nets.fuse.social.core.AddSocialActivity;
+import com.vas2nets.fuse.user.UserContentProvider;
+
+
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
@@ -518,3 +573,4 @@ public class UpdateProfileActivity extends Activity {
 	}
 
 }
+

@@ -1,5 +1,8 @@
 package com.vas2nets.fuse;
+<<<<<<< HEAD
 
+=======
+>>>>>>> d601ad396440f62d11146307230f7091e1e856d1
 /*
  * Standard operating procedures
  * 
@@ -12,7 +15,11 @@ package com.vas2nets.fuse;
  * 1. cd to fuse directory on command line
  * 2. Update your changes on Git
  *    a.) git add .
+<<<<<<< HEAD
  *    b) git commit -m 'gbolaga.2014.07.11.3.09'
+=======
+ *    b) git commit -m 'jonathan.2014.07.11.2.48'
+>>>>>>> d601ad396440f62d11146307230f7091e1e856d1
  *    c) git push
  *    
  * 3. Download Latest Project Files
@@ -22,7 +29,10 @@ package com.vas2nets.fuse;
  * git clean -d -fx " "
  * 
  */
+<<<<<<< HEAD
 
+=======
+>>>>>>> d601ad396440f62d11146307230f7091e1e856d1
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
@@ -78,10 +88,19 @@ import com.vas2nets.fuse.image.PicturePicker;
 import com.vas2nets.fuse.navigation.NavDrawerItem;
 import com.vas2nets.fuse.navigation.NavDrawerListAdapter;
 import com.vas2nets.fuse.profile.EditProfileFragment;
+
+import com.vas2nets.fuse.profile.FragmentProfile;
+
+import com.vas2nets.fuse.social.core.AddSocialActivity;
+
+import com.vas2nets.fuse.profile.PFragment;
+//import com.vas2nets.fuse.profile.FragmentProfile.SaveMyProfile;
+
 import com.vas2nets.fuse.profile.FragmentProfile;
 import com.vas2nets.fuse.social.core.AddSocialActivity;
 import com.vas2nets.fuse.profile.PFragment;
 //import com.vas2nets.fuse.profile.FragmentProfile.SaveMyProfile;
+
 import com.vas2nets.fuse.social.core.MySocialService;
 import com.vas2nets.fuse.social.facebook.FragmentFacebookSwipe;
 import com.vas2nets.fuse.social.instagram.FragmentInstagramSwipe;
@@ -618,13 +637,11 @@ public class MainActivity extends FragmentActivity {
 			return null;
 		}
 
+
     }
     
     public void addSocials(View v){	
 		 Intent i = new Intent(this, AddSocialActivity.class);
 		 startActivity(i);
 }
-   
-	}
-
-
+}
