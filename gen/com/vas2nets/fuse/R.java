@@ -2599,14 +2599,14 @@ So, (94 - 38)/2 ==> 28dp
         public static final int verify_pin=0x7f0e001f;
     }
     public static final class string {
-        public static final int SIPCallConnected=0x7f0b0314;
-        public static final int SIPInvite=0x7f0b0316;
-        public static final int SIPReady=0x7f0b0315;
-        public static final int SIPRegistering=0x7f0b0313;
-        public static final int SIPRegistrationError=0x7f0b0311;
-        public static final int SIPUnregistering=0x7f0b0312;
-        public static final int STUNDiscovery=0x7f0b0317;
-        public static final int STUNNotSupported=0x7f0b0318;
+        public static final int SIPCallConnected=0x7f0b0315;
+        public static final int SIPInvite=0x7f0b0317;
+        public static final int SIPReady=0x7f0b0316;
+        public static final int SIPRegistering=0x7f0b0314;
+        public static final int SIPRegistrationError=0x7f0b0312;
+        public static final int SIPUnregistering=0x7f0b0313;
+        public static final int STUNDiscovery=0x7f0b0318;
+        public static final int STUNNotSupported=0x7f0b0319;
         /**  Content description for the action bar "home" affordance. [CHAR LIMIT=NONE] 
          */
         public static final int abs__action_bar_home_description=0x7f0b0000;
@@ -2646,8 +2646,8 @@ So, (94 - 38)/2 ==> 28dp
         public static final int acct_registered=0x7f0b000e;
         public static final int acct_registering=0x7f0b000d;
         public static final int acct_unregistered=0x7f0b000b;
-        public static final int action_settings=0x7f0b02fa;
-        public static final int action_websearch=0x7f0b0302;
+        public static final int action_settings=0x7f0b02fb;
+        public static final int action_websearch=0x7f0b0303;
         public static final int activate=0x7f0b0231;
         public static final int activate_account=0x7f0b01f2;
         public static final int activate_presence_sharing=0x7f0b023e;
@@ -2749,7 +2749,7 @@ Name to use when we have an unspecified sender
          */
         public static final int anonymous_recipient=0x7f0b006b;
         public static final int another_application_use_sip_port=0x7f0b0221;
-        public static final int app_id=0x7f0b030d;
+        public static final int app_id=0x7f0b030e;
         /**  The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. 
 The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc.
  The name of the SMS/MMS app as it appears to the user in the Home screen, task switcher, etc. 
@@ -2770,7 +2770,7 @@ The name of the SMS/MMS app as it appears to the user in the Home screen, task s
          */
         public static final int app_label=0x7f0b0063;
         public static final int app_name=0x7f0b0011;
-        public static final int app_not_available=0x7f0b0303;
+        public static final int app_not_available=0x7f0b0304;
         public static final int apply_rewrite=0x7f0b0239;
         /**  Dialog message text asking the user if he wants to resize the picture being attached 
 Dialog message text asking the user if he wants to resize the picture being attached
@@ -3278,7 +3278,7 @@ Menu item for deleting the entire conversation currently being viewed
         public static final int delete_thread=0x7f0b0071;
         /**  Content Description 
          */
-        public static final int desc_list_item_icon=0x7f0b030e;
+        public static final int desc_list_item_icon=0x7f0b030f;
         /** 
       String describing the button to call a number or contact.
 
@@ -4977,8 +4977,8 @@ Message displayed in place of the "download message" button once it has been pre
          */
         public static final int downloading=0x7f0b0073;
         public static final int downloading_text=0x7f0b025b;
-        public static final int drawer_close=0x7f0b030c;
-        public static final int drawer_open=0x7f0b030b;
+        public static final int drawer_close=0x7f0b030d;
+        public static final int drawer_open=0x7f0b030c;
         public static final int dscp_val=0x7f0b00e7;
         public static final int dscp_val_desc=0x7f0b00e8;
         public static final int dtmf_pause_time=0x7f0b0145;
@@ -5169,8 +5169,8 @@ UI
         public static final int has_io_queue=0x7f0b0157;
         public static final int has_io_queue_desc=0x7f0b0158;
         public static final int has_more_than_n_digits=0x7f0b0030;
-        public static final int hello_blank_fragment=0x7f0b0301;
-        public static final int hello_world=0x7f0b02fb;
+        public static final int hello_blank_fragment=0x7f0b0302;
+        public static final int hello_world=0x7f0b02fc;
         public static final int help=0x7f0b0214;
         /**  Sender to be used if the sender address has been hidden 
 Sender to be used if the sender address has been hidden
@@ -5280,6 +5280,9 @@ Generic
         public static final int legacy=0x7f0b0172;
         public static final int legal_information=0x7f0b0229;
         public static final int loading=0x7f0b022b;
+        /**  Location client code resources (prefix with location_client) 
+         */
+        public static final int location_client_powered_by_google=0x7f0b02fa;
         public static final int lock_wifi=0x7f0b00ba;
         public static final int lock_wifi_desc=0x7f0b00bb;
         public static final int lock_wifi_perfs=0x7f0b00bc;
@@ -6008,33 +6011,33 @@ Status in "Report" window
         public static final int timer_min_se_desc=0x7f0b00f9;
         public static final int timer_sess_expires=0x7f0b00fa;
         public static final int timer_sess_expires_desc=0x7f0b00fb;
-        public static final int title_activity_add_social=0x7f0b0325;
-        public static final int title_activity_add_social_networks=0x7f0b0319;
-        public static final int title_activity_call=0x7f0b030a;
-        public static final int title_activity_chat=0x7f0b0306;
-        public static final int title_activity_chat_list=0x7f0b031b;
-        public static final int title_activity_contact_details=0x7f0b0304;
-        public static final int title_activity_facebook_friend_detail=0x7f0b031d;
-        public static final int title_activity_invite_to_fuse=0x7f0b031c;
-        public static final int title_activity_location=0x7f0b0320;
-        public static final int title_activity_location_another=0x7f0b0322;
-        public static final int title_activity_main=0x7f0b02fd;
-        public static final int title_activity_my_chat=0x7f0b0307;
-        public static final int title_activity_my_location=0x7f0b031f;
-        public static final int title_activity_my_main=0x7f0b0300;
-        public static final int title_activity_not_member=0x7f0b0323;
-        public static final int title_activity_receiver_call=0x7f0b030f;
-        public static final int title_activity_register_phone_number=0x7f0b02fc;
-        public static final int title_activity_select_contacts=0x7f0b0308;
-        public static final int title_activity_share=0x7f0b031e;
-        public static final int title_activity_sip_call=0x7f0b0309;
-        public static final int title_activity_sip_chat=0x7f0b0324;
-        public static final int title_activity_sms=0x7f0b0321;
-        public static final int title_activity_social_networks=0x7f0b031a;
-        public static final int title_activity_splash=0x7f0b0305;
-        public static final int title_activity_tiny_sip_demo=0x7f0b0310;
-        public static final int title_activity_update_profile=0x7f0b02ff;
-        public static final int title_activity_verify_pin=0x7f0b02fe;
+        public static final int title_activity_add_social=0x7f0b0326;
+        public static final int title_activity_add_social_networks=0x7f0b031a;
+        public static final int title_activity_call=0x7f0b030b;
+        public static final int title_activity_chat=0x7f0b0307;
+        public static final int title_activity_chat_list=0x7f0b031c;
+        public static final int title_activity_contact_details=0x7f0b0305;
+        public static final int title_activity_facebook_friend_detail=0x7f0b031e;
+        public static final int title_activity_invite_to_fuse=0x7f0b031d;
+        public static final int title_activity_location=0x7f0b0321;
+        public static final int title_activity_location_another=0x7f0b0323;
+        public static final int title_activity_main=0x7f0b02fe;
+        public static final int title_activity_my_chat=0x7f0b0308;
+        public static final int title_activity_my_location=0x7f0b0320;
+        public static final int title_activity_my_main=0x7f0b0301;
+        public static final int title_activity_not_member=0x7f0b0324;
+        public static final int title_activity_receiver_call=0x7f0b0310;
+        public static final int title_activity_register_phone_number=0x7f0b02fd;
+        public static final int title_activity_select_contacts=0x7f0b0309;
+        public static final int title_activity_share=0x7f0b031f;
+        public static final int title_activity_sip_call=0x7f0b030a;
+        public static final int title_activity_sip_chat=0x7f0b0325;
+        public static final int title_activity_sms=0x7f0b0322;
+        public static final int title_activity_social_networks=0x7f0b031b;
+        public static final int title_activity_splash=0x7f0b0306;
+        public static final int title_activity_tiny_sip_demo=0x7f0b0311;
+        public static final int title_activity_update_profile=0x7f0b0300;
+        public static final int title_activity_verify_pin=0x7f0b02ff;
         /**  Security 
 <string name="ka_use_wake">Keep alive awake</string>
     <string name="ka_use_wake_desc">If activated keep alive will awake phone</string>

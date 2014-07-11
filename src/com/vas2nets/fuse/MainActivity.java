@@ -1,8 +1,5 @@
 package com.vas2nets.fuse;
-<<<<<<< HEAD
 
-=======
->>>>>>> d601ad396440f62d11146307230f7091e1e856d1
 /*
  * Standard operating procedures
  * 
@@ -29,10 +26,7 @@ package com.vas2nets.fuse;
  * git clean -d -fx " "
  * 
  */
-<<<<<<< HEAD
 
-=======
->>>>>>> d601ad396440f62d11146307230f7091e1e856d1
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;
 import java.util.List;
