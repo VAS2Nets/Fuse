@@ -23,7 +23,7 @@ package com.vas2nets.fuse;
  * 	git pull origin
  * 4. To clean repository
  * 
- * git clean -d -fx " "
+ * git clean -d -fx " " //////
  * 
  */
 
