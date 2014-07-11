@@ -12,7 +12,7 @@ package com.vas2nets.fuse;
  * 1. cd to fuse directory on command line
  * 2. Update your changes on Git
  *    a.) git add .
- *    b) git commit -m 'jonathan.2014.07.11.2.48'
+ *    b) git commit -m 'gbolaga.2014.07.11.3.09'
  *    c) git push
  *    
  * 3. Download Latest Project Files
